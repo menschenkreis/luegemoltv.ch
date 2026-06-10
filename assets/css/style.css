@@ -655,17 +655,17 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 /* Channel Avatar as Logo */
 .logo-avatar {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
     transition: var(--transition);
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid var(--color-primary);
 }
 
 .navbar.scrolled .logo-avatar {
-    border-color: var(--color-border);
+    border-color: var(--color-primary);
 }
 
 .nav-logo:hover .logo-avatar {
