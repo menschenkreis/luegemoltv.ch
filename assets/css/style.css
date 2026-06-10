@@ -601,6 +601,66 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     transform: translateY(-2px);
 }
 
+/* YouTube Brand Button */
+.btn-youtube {
+    background: #FF0000;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-youtube::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.2), transparent 45%);
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.btn-youtube:hover {
+    background: #CC0000;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(255, 0, 0, 0.45);
+}
+
+.btn-youtube:hover::after {
+    opacity: 1;
+}
+
+/* YouTube Subscribe-style Button */
+.btn-youtube-sub {
+    background: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-youtube-sub:hover {
+    background: #CC0000;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(255, 0, 0, 0.4);
+}
+
+/* YouTube Logo in Navbar & Footer */
+.logo-yt {
+    flex-shrink: 0;
+    transition: var(--transition);
+}
+
+.nav-logo:hover .logo-yt {
+    transform: scale(1.05);
+}
+
+.footer-brand .logo-yt {
+    margin-right: 4px;
+}
+
 .btn-outline {
     background: transparent;
     color: var(--color-primary);

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#D4382C"/>
-  <text x="32" y="28" text-anchor="middle" font-size="20" fill="white">🇨🇭</text>
-  <text x="32" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="white">TV</text>
+  <rect width="64" height="64" rx="14" fill="#FF0000"/>
+  <path d="M43.5 24.6C43.1 23 41.7 21.6 40.1 21.2C37.1 20.4 32 20.4 32 20.4C32 20.4 26.9 20.4 23.9 21.2C22.3 21.6 20.9 23 20.5 24.6C19.7 27.6 19.7 32 19.7 32C19.7 32 19.7 36.4 20.5 39.4C20.9 41 22.3 42.4 23.9 42.8C26.9 43.6 32 43.6 32 43.6C32 43.6 37.1 43.6 40.1 42.8C41.7 42.4 43.1 41 43.5 39.4C44.3 36.4 44.3 32 44.3 32C44.3 32 44.3 27.6 43.5 24.6Z" fill="white"/>
+  <path d="M28.8 36.6L36.4 32L28.8 27.4V36.6Z" fill="#FF0000"/>
 </svg>
