@@ -653,8 +653,41 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     transition: var(--transition);
 }
 
-.nav-logo:hover .logo-yt {
-    transform: scale(1.05);
+/* Channel Avatar as Logo */
+.logo-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    transition: var(--transition);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar.scrolled .logo-avatar {
+    border-color: var(--color-border);
+}
+
+.nav-logo:hover .logo-avatar {
+    transform: scale(1.08);
+    border-color: var(--color-primary);
+}
+
+.footer-brand .logo-avatar {
+    width: 32px;
+    height: 32px;
+    border-color: var(--color-border);
+}
+
+/* Hero Banner from YouTube Channel */
+.hero-banner {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    filter: brightness(0.5) saturate(1.1);
 }
 
 .footer-brand .logo-yt {
