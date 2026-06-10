@@ -322,35 +322,21 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background:
-        linear-gradient(90deg, rgba(10, 10, 10, 0.82) 0%, rgba(10, 10, 10, 0.55) 42%, rgba(10, 10, 10, 0.2) 74%),
-        linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.55)),
-        url('../images/channel-banner.jpg') center 30%/cover;
-    background-repeat: no-repeat;
-    filter: saturate(1.1) contrast(1.08);
+    background: #000000;
 }
 
 .hero-bg::before {
     content: '';
     position: absolute;
     inset: 0;
-    background:
-        radial-gradient(ellipse at 10% 74%, rgba(255, 0, 0, 0.2) 0%, transparent 44%),
-        radial-gradient(ellipse at 82% 22%, rgba(255, 0, 0, 0.12) 0%, transparent 52%),
-        linear-gradient(160deg, rgba(0, 0, 0, 0.38) 0%, transparent 56%),
-        linear-gradient(to top, rgba(0, 0, 0, 0.52) 10%, transparent 56%);
-    opacity: 0.74;
+    background: transparent;
 }
 
 .hero-bg::after {
     content: '';
     position: absolute;
     inset: 0;
-    background:
-        linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0 1px, transparent 1px 20px),
-        linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0 1px, transparent 1px 44px);
-    mix-blend-mode: multiply;
-    opacity: 0.4;
+    background: transparent;
 }
 
 .hero::after {
@@ -697,7 +683,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     height: 100%;
     object-fit: cover;
     object-position: center;
-    filter: brightness(0.45) saturate(1.2);
+    opacity: 0.4;
+    mix-blend-mode: lighten;
 }
 
 .footer-brand .logo-yt {
