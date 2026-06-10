@@ -7,14 +7,14 @@
 :root {
     --color-bg: #FAF8F5;
     --color-bg-alt: #F0EDE8;
-    --color-bg-dark: #1A1A2E;
+    --color-bg-dark: #15243A;
     --color-bg-hero: #0F2027;
-    --color-primary: #D4382C;
-    --color-primary-light: #E8574B;
-    --color-primary-dark: #A82A21;
+    --color-primary: #D9A74A;
+    --color-primary-light: #EABE6E;
+    --color-primary-dark: #B8832D;
     --color-green: #2D6A4F;
     --color-green-light: #40916C;
-    --color-gold: #C9A84C;
+    --color-gold: #D9A74A;
     --color-text: #2C2C2C;
     --color-text-light: #6B6B6B;
     --color-text-inverse: #FFFFFF;
@@ -238,8 +238,10 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: 
-        linear-gradient(135deg, #0F2027 0%, #203A43 40%, #2C5364 70%, #1A3A4A 100%);
+    background: linear-gradient(120deg, rgba(14, 22, 40, 0.35), rgba(17, 41, 57, 0.15)),
+        linear-gradient(180deg, rgba(13, 19, 38, 0.45), rgba(17, 32, 49, 0.55)),
+        url('../images/hero-luegemoltv-summit.png') center/cover;
+    background-repeat: no-repeat;
 }
 
 .hero-bg::before {
@@ -247,9 +249,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(ellipse at 20% 80%, rgba(212, 56, 44, 0.15) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 20%, rgba(45, 106, 79, 0.2) 0%, transparent 50%),
-        radial-gradient(ellipse at 50% 50%, rgba(201, 168, 76, 0.1) 0%, transparent 60%);
+        radial-gradient(ellipse at 20% 80%, rgba(217, 167, 74, 0.22) 0%, transparent 52%),
+        radial-gradient(ellipse at 80% 15%, rgba(64, 145, 108, 0.22) 0%, transparent 52%),
+        linear-gradient(160deg, rgba(0, 0, 0, 0.38) 0%, transparent 56%);
 }
 
 .hero-bg::after {
@@ -260,6 +262,21 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     right: 0;
     height: 200px;
     background: linear-gradient(to top, var(--color-bg) 0%, transparent 100%);
+}
+
+.hero-bg-drift {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle at 16% 40%, rgba(255, 255, 255, 0.09) 0%, transparent 35%),
+                      radial-gradient(circle at 86% 20%, rgba(255, 255, 255, 0.07) 0%, transparent 40%);
+    mix-blend-mode: screen;
+    animation: driftShift 14s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+
+@keyframes driftShift {
+    from { transform: scale(1.02) translate3d(0, 0, 0); }
+    to { transform: scale(1.06) translate3d(-0.5%, 1%, 0); }
 }
 
 .hero-overlay {
@@ -448,6 +465,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     overflow: hidden;
     box-shadow: var(--shadow-lg);
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #0d1a29;
+    border: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .about-img:hover { transform: translateY(-8px) scale(1.02); }
@@ -479,37 +498,35 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .img-placeholder {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
     position: relative;
-    overflow: hidden;
 }
 
-.about-img-1 .img-placeholder {
-    background: linear-gradient(135deg, #2D6A4F, #40916C, #52B788);
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.6s ease;
 }
 
-.about-img-2 .img-placeholder {
-    background: linear-gradient(135deg, #D4382C, #E8574B, #F08080);
+.about-img:hover img {
+    transform: scale(1.06);
 }
 
-.about-img-3 .img-placeholder {
-    background: linear-gradient(135deg, #1A3A4A, #203A43, #2C5364);
-}
-
-.placeholder-emoji {
-    font-size: 3rem;
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
-}
-
-.placeholder-text {
-    color: rgba(255, 255, 255, 0.9);
+.img-category {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(13, 23, 37, 0.72);
+    backdrop-filter: blur(8px);
+    color: #fff;
+    font-size: 0.78rem;
     font-weight: 600;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
 }
 
 .about-stats {
@@ -570,15 +587,20 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 
 .feature-icon {
-    font-size: 1.5rem;
     flex-shrink: 0;
-    width: 48px;
-    height: 48px;
-    display: flex;
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     background: var(--color-bg-alt);
-    border-radius: var(--radius-sm);
+}
+
+.feature-icon img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
 }
 
 .feature strong {
@@ -797,8 +819,22 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 
 .tradition-icon {
-    font-size: 2.5rem;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background: #faf8f5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 16px;
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+}
+
+.tradition-icon img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
 }
 
 .tradition-card h3 {
@@ -928,46 +964,50 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .map-placeholder {
     width: 100%;
     height: 400px;
-    background: linear-gradient(135deg, #203A43, #2C5364);
     border-radius: var(--radius-lg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
     position: relative;
     overflow: hidden;
+    box-shadow: var(--shadow-lg);
 }
 
 .map-placeholder::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background: linear-gradient(180deg, rgba(7, 13, 21, 0.2), rgba(7, 13, 21, 0.55));
 }
 
-.map-compass {
-    font-size: 3rem;
-    animation: float 3s ease-in-out infinite;
-    position: relative;
+.map-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: saturate(1.05) contrast(1.04);
+}
+
+.map-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
+    padding: 22px;
+    background: linear-gradient(to top, rgba(7, 13, 21, 0.75), rgba(7, 13, 21, 0.15));
     z-index: 1;
 }
 
 .map-text {
+    color: #fff;
     font-family: var(--font-heading);
     font-size: 2rem;
-    color: white;
     font-weight: 700;
-    position: relative;
-    z-index: 1;
 }
 
 .map-coords {
     font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.68);
     font-family: monospace;
-    position: relative;
-    z-index: 1;
 }
 
 /* ---------- Footer ---------- */

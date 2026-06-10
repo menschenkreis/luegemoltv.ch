@@ -42,7 +42,9 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-bg"></div>
+        <div class="hero-bg">
+            <div class="hero-bg-drift" aria-hidden="true"></div>
+        </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="hero-badge">🇨🇭 Travelblog für die Traditionelle Schweiz</div>
@@ -79,22 +81,25 @@
                 <div class="about-visual">
                     <div class="about-image-stack">
                         <div class="about-img about-img-1">
-                            <div class="img-placeholder" data-category="🏔️ Alpen">
-                                <span class="placeholder-emoji">🐄</span>
-                                <span class="placeholder-text">Alpaufzüge</span>
-                            </div>
+                            <img
+                                src="assets/images/hero-luegemoltv-summit.png"
+                                alt="Landschaft mit Schweizer Alpen"
+                                loading="lazy">
+                            <span class="img-category">🏔️ Alpaufzüge</span>
                         </div>
                         <div class="about-img about-img-2">
-                            <div class="img-placeholder" data-category="🔔 Brauchtum">
-                                <span class="placeholder-emoji">🎭</span>
-                                <span class="placeholder-text">Traditionen</span>
-                            </div>
+                            <img
+                                src="assets/images/hero-card-glow.jpg"
+                                alt="Landschaftsriss im Schweizer Stil"
+                                loading="lazy">
+                            <span class="img-category">🔔 Brauchtum</span>
                         </div>
                         <div class="about-img about-img-3">
-                            <div class="img-placeholder" data-category="🌿 Natur">
-                                <span class="placeholder-emoji">🌲</span>
-                                <span class="placeholder-text">Schweizer Natur</span>
-                            </div>
+                            <img
+                                src="assets/images/hero-luegemoltv-summit-mobile.jpg"
+                                alt="Alpwiese in der Abendsonne"
+                                loading="lazy">
+                            <span class="img-category">🌿 Schweizer Natur</span>
                         </div>
                     </div>
                     <div class="about-stats">
@@ -130,21 +135,27 @@
                     </p>
                     <div class="about-features">
                         <div class="feature">
-                            <span class="feature-icon">🎥</span>
+                            <span class="feature-icon">
+                                <img src="assets/images/icon-mountain.png" alt="">
+                            </span>
                             <div>
                                 <strong>4K Qualitätsvideos</strong>
                                 <p>Gefilmt mit Leidenschaft in den Schweizer Bergen</p>
                             </div>
                         </div>
                         <div class="feature">
-                            <span class="feature-icon">📍</span>
+                            <span class="feature-icon">
+                                <img src="assets/images/icon-forest.png" alt="">
+                            </span>
                             <div>
                                 <strong>Authentische Orte</strong>
                                 <p>Von Appenzell bis ins Wallis – echte Schweiz</p>
                             </div>
                         </div>
                         <div class="feature">
-                            <span class="feature-icon">❤️</span>
+                            <span class="feature-icon">
+                                <img src="assets/images/icon-cowbell.png" alt="">
+                            </span>
                             <div>
                                 <strong>Mit Herz gemacht</strong>
                                 <p>Tradition bewahren und weitererzählen</p>
@@ -196,37 +207,49 @@
 
             <div class="tradition-cards">
                 <div class="tradition-card">
-                    <div class="tradition-icon">🐄</div>
+                    <div class="tradition-icon">
+                        <img src="assets/images/icon-mountain.png" alt="">
+                    </div>
                     <h3>Alpaufzug</h3>
                     <p>Im Frühling ziehen die Hirten mit ihren Herden auf die Alp – ein Spektakel voller Emotion und Kuhglockenklang.</p>
                     <span class="tradition-region">Appenzell, Wallis, Entlebuch</span>
                 </div>
                 <div class="tradition-card">
-                    <div class="tradition-icon">👹</div>
+                    <div class="tradition-icon">
+                        <img src="assets/images/icon-forest.png" alt="">
+                    </div>
                     <h3>Tschäggättä</h3>
                     <p>Wilde Fasnachtsgestalten im Lötschental – mit Holzmasken und Tierfellen treiben sie den Winter aus.</p>
                     <span class="tradition-region">Lötschental, Wallis</span>
                 </div>
                 <div class="tradition-card">
-                    <div class="tradition-icon">🔔</div>
+                    <div class="tradition-icon">
+                        <img src="assets/images/icon-cowbell.png" alt="">
+                    </div>
                     <h3>Silvesterchlausen</h3>
                     <p>Schöne, Wüeste und Schö-Wüeste ziehen singend durchs Appenzellerland – einzigartig auf der ganzen Welt.</p>
                     <span class="tradition-region">Urnäsch, Appenzell</span>
                 </div>
                 <div class="tradition-card">
-                    <div class="tradition-icon">🧀</div>
+                    <div class="tradition-icon">
+                        <img src="assets/images/icon-tour.png" alt="">
+                    </div>
                     <h3>Chästeilet</h3>
                     <p>Wenn der Käse feierlich von der Alp ins Tal geteilt wird – ein Fest der Gemeinschaft und des Genusses.</p>
                     <span class="tradition-region">Justistal, Berner Oberland</span>
                 </div>
                 <div class="tradition-card">
-                    <div class="tradition-icon">🎆</div>
+                    <div class="tradition-icon">
+                        <img src="assets/images/icon-forest.png" alt="">
+                    </div>
                     <h3>Fasnacht</h3>
                     <p>Teigwahlen, Feuer & Konfetti – die Schweizer Fasnacht ist wild, bunt und voller Überraschungen.</p>
                     <span class="tradition-region">Baden, Luzern, Basel</span>
                 </div>
                 <div class="tradition-card">
-                    <div class="tradition-icon">🎵</div>
+                    <div class="tradition-icon">
+                        <img src="assets/images/icon-cowbell.png" alt="">
+                    </div>
                     <h3>Jodeln & Volksmusik</h3>
                     <p>Das Neujahrskonzert und Jodlerfeste verbinden Generationen durch die Kraft der Musik.</p>
                     <span class="tradition-region">Dulliken, Aaretal</span>
@@ -275,9 +298,11 @@
                 </div>
                 <div class="contact-map">
                     <div class="map-placeholder">
-                        <div class="map-compass">🧭</div>
-                        <span class="map-text">Schweiz</span>
-                        <span class="map-coords">46.8182° N, 8.2275° E</span>
+                        <img src="assets/images/hero-card-glow.jpg" alt="Moodboard der Schweizer Alpen" loading="lazy">
+                        <div class="map-overlay">
+                            <span class="map-text">Schweiz</span>
+                            <span class="map-coords">46.8182° N, 8.2275° E</span>
+                        </div>
                     </div>
                 </div>
             </div>
