@@ -1,0 +1,35 @@
+skills/
+media/
+memory/
+.env
+*.pdf
+
+# OpenClaw Security (Auto-added)
+AGENTS.md
+MEMORY.md
+memory/
+SOUL.md
+USER.md
+TOOLS.md
+IDENTITY.md
+HEARTBEAT.md
+BOOTSTRAP.md
+.openclaw/
+skills/
+.learnings/
+DREAMS.md
+*.log
+
+# SECURITY: NON-WEBSITE DATA (STAY LOCAL)
+DREAMS.md
+dreams.md
+*.docx
+*.pdf
+*.csv
+*.log
+*.mp3
+*.wav
+*.py
+tmp/
+scripts/
+config/
