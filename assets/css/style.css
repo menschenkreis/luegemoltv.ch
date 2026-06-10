@@ -311,10 +311,10 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 /* ---------- Hero ---------- */
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 94vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     overflow: hidden;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -322,11 +322,12 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: linear-gradient(120deg, rgba(14, 22, 40, 0.35), rgba(17, 41, 57, 0.15)),
-        linear-gradient(180deg, rgba(13, 19, 38, 0.45), rgba(17, 32, 49, 0.55)),
-        url('../images/hero-luegemoltv-summit.png') center/cover;
+    background:
+        linear-gradient(90deg, rgba(9, 13, 20, 0.76) 0%, rgba(11, 17, 25, 0.46) 42%, rgba(11, 17, 25, 0.12) 74%),
+        linear-gradient(180deg, rgba(13, 19, 38, 0.4), rgba(17, 32, 49, 0.58)),
+        url('../images/hero-luegemoltv-summit.png') 58% center/cover;
     background-repeat: no-repeat;
-    filter: saturate(1.03) contrast(1.03);
+    filter: saturate(1.08) contrast(1.06);
 }
 
 .hero-bg::before {
@@ -334,11 +335,11 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(ellipse at 20% 80%, rgba(217, 173, 89, 0.22) 0%, transparent 52%),
-        radial-gradient(ellipse at 80% 15%, rgba(64, 145, 108, 0.22) 0%, transparent 52%),
+        radial-gradient(ellipse at 10% 74%, rgba(194, 138, 40, 0.24) 0%, transparent 44%),
+        radial-gradient(ellipse at 82% 22%, rgba(46, 106, 83, 0.18) 0%, transparent 52%),
         linear-gradient(160deg, rgba(0, 0, 0, 0.38) 0%, transparent 56%),
         linear-gradient(to top, rgba(17, 32, 49, 0.52) 10%, transparent 56%);
-    opacity: 0.65;
+    opacity: 0.74;
 }
 
 .hero-bg::after {
@@ -350,6 +351,17 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0 1px, transparent 1px 44px);
     mix-blend-mode: multiply;
     opacity: 0.4;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    left: clamp(24px, 5vw, 72px);
+    right: clamp(24px, 5vw, 72px);
+    bottom: 26px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.64), rgba(194, 138, 40, 0.28), transparent 80%);
+    z-index: 2;
 }
 
 .hero-bg-drift {
@@ -388,17 +400,18 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .hero-content {
     position: relative;
-    text-align: center;
-    padding: 0 24px;
-    max-width: 800px;
+    text-align: left;
+    padding: 120px clamp(24px, 6vw, 86px) 96px;
+    max-width: 850px;
+    z-index: 3;
 }
 
 .hero-badge {
     display: inline-block;
     padding: 8px 24px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(253, 249, 241, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 100px;
+    border-radius: 0;
     color: rgba(255, 255, 255, 0.9);
     font-size: 0.85rem;
     font-weight: 500;
@@ -426,7 +439,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .hero-title {
     font-family: var(--font-heading);
-    font-size: clamp(2.8rem, 7vw, 5rem);
+    font-size: clamp(3rem, 7vw, 6rem);
     font-weight: 700;
     line-height: 1.1;
     color: white;
@@ -439,13 +452,13 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: block;
     font-size: 0.5em;
     font-weight: 400;
-    opacity: 0.8;
+    opacity: 0.86;
     margin-bottom: 8px;
 }
 
 .title-highlight {
     display: block;
-    background: linear-gradient(132deg, #FFFFFF 0%, #E9D2A4 40%, #C28A28 100%);
+    background: linear-gradient(132deg, #FFFFFF 0%, #F3E6C8 36%, #D19B3C 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -453,29 +466,57 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .hero-subtitle {
     font-size: clamp(1rem, 1.95vw, 1.2rem);
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.78);
     line-height: 1.7;
     margin-bottom: 40px;
     max-width: 580px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
 .hero-actions {
     display: flex;
     gap: 16px;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 80px;
     animation: fadeInUp 0.8s ease-out 0.6s both;
 }
 
+.hero-signature {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    animation: fadeInUp 0.8s ease-out 0.7s both;
+}
+
+.hero-signature span {
+    position: relative;
+    padding-left: 16px;
+}
+
+.hero-signature span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 6px;
+    height: 6px;
+    background: var(--color-primary);
+}
+
 .hero-scroll {
     position: absolute;
     bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: auto;
+    right: clamp(24px, 5vw, 72px);
+    transform: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -608,46 +649,73 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: relative;
 }
 
+.about-edition {
+    position: absolute;
+    top: -28px;
+    left: 18px;
+    z-index: 5;
+    color: var(--color-swiss-red);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.about-visual::before {
+    content: '';
+    position: absolute;
+    inset: 28px 36px 64px 0;
+    border: 1px solid rgba(194, 138, 40, 0.34);
+    z-index: 0;
+}
+
 .about-image-stack {
     position: relative;
-    height: 500px;
+    height: 560px;
+    z-index: 1;
 }
 
 .about-img {
     position: absolute;
-    border-radius: var(--radius-md);
+    border-radius: 6px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     background: #0d1a29;
-    border: 1px solid rgba(255, 255, 255, 0.16);
+    border: 8px solid var(--color-paper);
 }
 
 .about-img:hover { transform: translateY(-8px) scale(1.02); }
 
 .about-img-1 {
     top: 0;
-    left: 0;
-    width: 55%;
-    height: 300px;
+    left: 28px;
+    width: 68%;
+    height: 332px;
     z-index: 3;
 }
 
 .about-img-2 {
-    top: 60px;
+    top: 112px;
     right: 0;
-    width: 50%;
-    height: 250px;
+    width: 43%;
+    height: 280px;
     z-index: 2;
 }
 
 .about-img-3 {
     bottom: 0;
-    left: 10%;
-    width: 45%;
-    height: 220px;
+    left: 12%;
+    width: 42%;
+    height: 270px;
     z-index: 1;
 }
+
+.about-img-1 img { object-position: 58% center; }
+.about-img-2 img { object-position: 64% center; }
+.about-img-3 img { object-position: center 62%; }
 
 .img-placeholder {
     width: 100%;
@@ -673,13 +741,14 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     left: 14px;
     bottom: 14px;
     padding: 6px 12px;
-    border-radius: 999px;
-    background: rgba(13, 23, 37, 0.72);
+    border-radius: 0;
+    background: rgba(13, 23, 37, 0.78);
     backdrop-filter: blur(8px);
     color: #fff;
     font-size: 0.78rem;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     border: 1px solid rgba(255, 255, 255, 0.22);
 }
 
@@ -689,7 +758,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     margin-top: 40px;
     padding: 22px;
     background: var(--color-card);
-    border-radius: var(--radius-md);
+    border-radius: 6px;
     box-shadow: var(--shadow-md);
     border: 1px solid rgba(44, 37, 31, 0.08);
     position: relative;
@@ -763,32 +832,37 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .feature {
     display: flex;
     align-items: flex-start;
-    gap: 16px;
-    padding-bottom: 16px;
+    gap: 18px;
+    padding: 18px 0;
     border-bottom: 1px dashed rgba(194, 138, 40, 0.2);
 }
 
 .feature-icon {
     flex-shrink: 0;
-    width: 56px;
-    height: 56px;
-    border-radius: 14px;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: var(--color-bg-alt);
+    background: radial-gradient(circle, #fffdf7 0%, #efe6d2 100%);
+    border: 1px solid rgba(194, 138, 40, 0.28);
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.48), 0 10px 24px rgba(39, 35, 30, 0.08);
+    overflow: hidden;
 }
 
 .feature-icon img {
-    width: 36px;
-    height: 36px;
+    width: 58px;
+    height: 58px;
     object-fit: contain;
+    mix-blend-mode: multiply;
 }
 
 .feature strong {
     display: block;
     margin-bottom: 2px;
-    font-size: 0.95rem;
+    font-size: 1rem;
+    color: var(--color-ink);
 }
 
 .feature p {
@@ -801,7 +875,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .videos {
     padding: 120px 0;
     background:
-        linear-gradient(180deg, rgba(241, 235, 221, 0.78), rgba(241, 235, 221, 0.55)),
+        linear-gradient(180deg, rgba(241, 235, 221, 0.82), rgba(241, 235, 221, 0.62)),
+        radial-gradient(circle at 92% 8%, rgba(194, 59, 59, 0.08), transparent 28%),
         repeating-linear-gradient(
             45deg,
             rgba(255, 255, 255, 0.25) 0 1px,
@@ -821,7 +896,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .filter-btn {
     padding: 10px 24px;
-    border-radius: 999px;
+    border-radius: 4px;
     font-size: 0.9rem;
     font-weight: 500;
     color: var(--color-text-light);
@@ -838,9 +913,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 
 .filter-btn.active {
-    background: linear-gradient(140deg, #CFA04F, var(--color-primary));
+    background: linear-gradient(140deg, var(--color-swiss-red), #9f2f2f);
     color: white;
-    border-color: var(--color-primary);
+    border-color: var(--color-swiss-red);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
@@ -852,7 +927,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .video-card {
     background: var(--color-card);
-    border-radius: var(--radius-md);
+    border-radius: 6px;
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
@@ -912,7 +987,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .video-play-circle {
     width: 64px;
     height: 64px;
-    background: var(--color-primary);
+    background: var(--color-swiss-red);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1006,18 +1081,19 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .tradition-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    gap: 24px;
+    gap: 22px;
 }
 
 .tradition-card {
-    padding: 32px;
+    padding: 34px;
     background: var(--color-card);
-    border-radius: var(--radius-md);
+    border-radius: 6px;
     border: 1px solid var(--color-border);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
-    background: linear-gradient(170deg, #ffffff 0%, #fffdf8 100%);
+    background:
+        linear-gradient(170deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 253, 248, 0.98) 100%);
     box-shadow: 0 12px 28px rgba(36, 32, 28, 0.07);
 }
 
@@ -1027,8 +1103,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     top: 0;
     left: 0;
     right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, var(--color-primary), var(--color-gold));
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-swiss-red), var(--color-primary));
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.4s ease;
@@ -1048,27 +1124,29 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 
 .tradition-icon {
-    width: 64px;
-    height: 64px;
-    border-radius: 16px;
-    background: #faf8f5;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fffdf7 0%, #efe6d2 100%);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16px;
-    border: 1px solid var(--color-border);
+    margin-bottom: 22px;
+    border: 1px solid rgba(194, 138, 40, 0.24);
+    box-shadow: inset 0 0 0 7px rgba(255, 255, 255, 0.52), 0 12px 28px rgba(39, 35, 30, 0.08);
     overflow: hidden;
 }
 
 .tradition-icon img {
-    width: 42px;
-    height: 42px;
+    width: 74px;
+    height: 74px;
     object-fit: contain;
+    mix-blend-mode: multiply;
 }
 
 .tradition-card h3 {
     font-family: var(--font-heading);
-    font-size: 1.3rem;
+    font-size: 1.42rem;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -1094,8 +1172,10 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 /* ---------- Quote Section ---------- */
 .quote-section {
-    padding: 100px 0;
-    background: var(--color-bg-dark);
+    padding: 124px 0;
+    background:
+        linear-gradient(90deg, rgba(18, 36, 58, 0.94), rgba(18, 36, 58, 0.82)),
+        url('../images/hero-card-glow.jpg') center/cover;
     position: relative;
     overflow: hidden;
 }
@@ -1105,9 +1185,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(ellipse at 30% 50%, rgba(194, 138, 40, 0.14) 0%, transparent 50%),
-        radial-gradient(ellipse at 70% 50%, rgba(44, 77, 53, 0.16) 0%, transparent 50%),
-    repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.03) 0 2px, transparent 2px 22px);
+        radial-gradient(ellipse at 30% 50%, rgba(194, 138, 40, 0.22) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 50%, rgba(44, 77, 53, 0.18) 0%, transparent 50%),
+        repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.035) 0 2px, transparent 2px 22px);
 }
 
 .quote-section .section-header .section-tag::before {
@@ -1117,7 +1197,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .travel-quote {
     position: relative;
     text-align: center;
-    max-width: 700px;
+    max-width: 780px;
     margin: 0 auto;
 }
 
@@ -1133,10 +1213,31 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .travel-quote p {
     font-family: var(--font-heading);
-    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    font-size: clamp(1.45rem, 3vw, 2.15rem);
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
     font-style: italic;
+}
+
+.quote-ornament {
+    position: absolute;
+    right: clamp(20px, 7vw, 110px);
+    bottom: -42px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgba(253, 249, 241, 0.92);
+    border: 1px solid rgba(194, 138, 40, 0.42);
+    display: grid;
+    place-items: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.quote-ornament img {
+    width: 124px;
+    height: 124px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
 }
 
 .travel-quote footer {
@@ -1150,7 +1251,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 /* ---------- Contact ---------- */
 .contact {
     padding: 120px 0;
-    background: linear-gradient(180deg, #F7F2E9 0%, #EFE8D8 100%);
+    background:
+        linear-gradient(180deg, rgba(247, 242, 233, 0.96) 0%, rgba(239, 232, 216, 0.97) 100%),
+        url('../images/icons-generated-grid.png') right -140px bottom -180px/520px auto no-repeat;
     position: relative;
 }
 
@@ -1220,7 +1323,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .map-placeholder {
     width: 100%;
     height: 400px;
-    border-radius: var(--radius-lg);
+    border-radius: 6px;
     position: relative;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
@@ -1230,7 +1333,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(7, 13, 21, 0.2), rgba(7, 13, 21, 0.55));
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(7, 13, 21, 0.12), rgba(7, 13, 21, 0.62));
 }
 
 .map-placeholder img {
@@ -1256,7 +1360,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     flex-direction: column;
     justify-content: flex-end;
     gap: 4px;
-    padding: 22px;
+    padding: 26px;
     background: linear-gradient(to top, rgba(7, 13, 21, 0.75), rgba(7, 13, 21, 0.15));
     z-index: 1;
 }
@@ -1465,6 +1569,17 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1024px) {
+    .hero {
+        min-height: 88vh;
+    }
+
+    .hero-bg {
+        background:
+            linear-gradient(90deg, rgba(9, 13, 20, 0.76) 0%, rgba(11, 17, 25, 0.44) 54%, rgba(11, 17, 25, 0.18) 100%),
+            linear-gradient(180deg, rgba(13, 19, 38, 0.42), rgba(17, 32, 49, 0.62)),
+            url('../images/hero-luegemoltv-summit.png') 62% center/cover;
+    }
+
     .about-grid {
         grid-template-columns: 1fr;
         gap: 48px;
@@ -1473,7 +1588,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     .about-visual { order: -1; }
 
     .about-image-stack {
-        height: 400px;
+        height: 520px;
+        max-width: 720px;
+        margin: 0 auto;
     }
 
     .contact-grid {
@@ -1483,6 +1600,33 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 
 @media (max-width: 768px) {
+    .hero {
+        min-height: 92vh;
+        align-items: flex-end;
+    }
+
+    .hero-bg {
+        background:
+            linear-gradient(180deg, rgba(9, 13, 20, 0.2) 0%, rgba(9, 13, 20, 0.78) 64%, rgba(9, 13, 20, 0.94) 100%),
+            url('../images/hero-luegemoltv-summit-mobile.jpg') center top/cover;
+    }
+
+    .hero-content {
+        padding: 112px 24px 104px;
+        text-align: left;
+    }
+
+    .hero-signature {
+        gap: 8px 14px;
+        letter-spacing: 1.4px;
+    }
+
+    .hero-scroll {
+        right: 24px;
+        bottom: 28px;
+        display: none;
+    }
+
     .nav-links {
         display: none;
         position: fixed;
@@ -1518,12 +1662,80 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     }
 
     .about-image-stack {
-        height: 350px;
+        height: 480px;
     }
 
     .about-stats {
         flex-direction: column;
         gap: 16px;
+    }
+
+    .stat-item:not(:last-child)::after {
+        top: auto;
+        right: 20%;
+        left: 20%;
+        bottom: -8px;
+        width: auto;
+        height: 1px;
+    }
+
+    .about-edition {
+        top: -18px;
+        left: 4px;
+    }
+
+    .about-img {
+        border-width: 6px;
+    }
+
+    .about-img-1 {
+        left: 18px;
+        width: 72%;
+        height: 285px;
+    }
+
+    .about-img-2 {
+        top: 128px;
+        width: 48%;
+        height: 230px;
+    }
+
+    .about-img-3 {
+        left: 9%;
+        width: 52%;
+        height: 230px;
+    }
+
+    .feature-icon {
+        width: 68px;
+        height: 68px;
+    }
+
+    .feature-icon img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .tradition-icon {
+        width: 84px;
+        height: 84px;
+    }
+
+    .tradition-icon img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .quote-ornament {
+        width: 104px;
+        height: 104px;
+        right: 22px;
+        bottom: -30px;
+    }
+
+    .quote-ornament img {
+        width: 86px;
+        height: 86px;
     }
 
     .footer-content {
@@ -1552,4 +1764,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     .contact-link { justify-content: center; }
     .video-filters { gap: 8px; }
     .filter-btn { padding: 8px 16px; font-size: 0.8rem; }
+    .hero-badge { padding: 8px 14px; }
+    .hero-signature span { width: 100%; }
+    .map-placeholder { height: 320px; }
 }
