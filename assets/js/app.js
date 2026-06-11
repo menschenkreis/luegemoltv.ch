@@ -109,6 +109,111 @@ const VIDEOS = [
         duration: "8:05",
         category: "alp",
         desc: "6 Alpen an einem Tag – die Alpabfahrt in Mels von Kohlschlag bis Walabütz."
+    },
+    {
+        id: "Qmi6_tt-a4M",
+        title: "Alpabzug Engstligenalp 2025",
+        duration: "7:28",
+        category: "alp",
+        desc: "Der wunderschöne Alpabzug auf der Engstligenalp 2025."
+    },
+    {
+        id: "iXMaXBqzc-M",
+        title: "Gstaad Züglete – 10 Jahre Jubiläum",
+        duration: "4:10",
+        category: "alp",
+        desc: "Die Gstaad Züglete feiert 10 Jahre Jubiläum – ein Spektakel."
+    },
+    {
+        id: "e9brgxG1Mv4",
+        title: "Alpabfahrt Appenzell Innerhoden 2025",
+        duration: "",
+        category: "alp",
+        desc: "Traditionelle Alpabfahrt in Appenzell Innerhoden 2025."
+    },
+    {
+        id: "XfpmrERRD68",
+        title: "Bodäfahrt 2025 – Ein schweizweit einzigartiges Erlebnis!",
+        duration: "",
+        category: "brauchtum",
+        desc: "Die Bodäfahrt 2025 – ein einzigartiges Schweizer Erlebnis."
+    },
+    {
+        id: "HufcJtzCktE",
+        title: "Älplerfest Alp Sellamatt 20 Juli 2025",
+        duration: "",
+        category: "alp",
+        desc: "Das Älplerfest auf der Alp Sellamatt im Juli 2025."
+    },
+    {
+        id: "TTw9AIrNEPk",
+        title: "Jodlerfest Altstätten 2025",
+        duration: "",
+        category: "natur",
+        desc: "Das Jodlerfest in Altstätten 2025 – Jodeln und Tradition."
+    },
+    {
+        id: "G0oUDRckGf4",
+        title: "Alpaufzug Engstligenalp 2025",
+        duration: "",
+        category: "alp",
+        desc: "Der Alpaufzug auf die Engstligenalp 2025."
+    },
+    {
+        id: "wdV_tHfdXjQ",
+        title: "Nordwestschweizer Jodlerfest 2025 – Reidgoldswil",
+        duration: "",
+        category: "natur",
+        desc: "Das Nordwestschweizer Jodlerfest 2025 in Reidgoldswil."
+    },
+    {
+        id: "xVpMDQF6OLQ",
+        title: "Alpfahrt Appenzell Innerhoden zum Seealpsee 2025",
+        duration: "",
+        category: "alp",
+        desc: "Alpfahrt in Appenzell Innerhoden zum malerischen Seealpsee 2025."
+    },
+    {
+        id: "hzh6Pt9cPoY",
+        title: "Innerschweizer Trachtenfest 2025",
+        duration: "",
+        category: "brauchtum",
+        desc: "Das Innerschweizer Trachtenfest 2025 – farbenprächtig und traditionsreich."
+    },
+    {
+        id: "KpBesEvPPmI",
+        title: "Visper Fasnacht 2025 – Die wildeste Fasnacht im Wallis!",
+        duration: "",
+        category: "brauchtum",
+        desc: "Die Visper Fasnacht 2025 – wild, farbig und voller Tradition."
+    },
+    {
+        id: "_mxqTIk_D6k",
+        title: "Illumination Kloster Einsiedeln 2025",
+        duration: "",
+        category: "brauchtum",
+        desc: "Die wunderschöne Illumination des Klosters Einsiedeln 2025."
+    },
+    {
+        id: "V2aFRjXdHDM",
+        title: "Silvesterchlausen Urnäsch – Neuer Silvester 2024",
+        duration: "",
+        category: "brauchtum",
+        desc: "Silvesterchlausen in Urnäsch zum Neuen Silvester 2024."
+    },
+    {
+        id: "8_BQPHQQuNA",
+        title: "Klausjagen Küssnacht 2024",
+        duration: "",
+        category: "brauchtum",
+        desc: "Das traditionsreiche Klausjagen in Küssnacht 2024."
+    },
+    {
+        id: "dci-de3s3pw",
+        title: "Trinklerumzug Kerns 2024",
+        duration: "",
+        category: "brauchtum",
+        desc: "Der Trinklerumzug in Kerns 2024 – Treicheln und Tradition."
     }
 ];
 
