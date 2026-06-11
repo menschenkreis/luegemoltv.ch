@@ -5,11 +5,11 @@
 
 /* ---------- CSS Variables ---------- */
 :root {
-    --color-bg: #000000;
-    --color-bg-alt: #0A0A0A;
-    --color-paper: #111111;
-    --color-bg-dark: #000000;
-    --color-bg-hero: #000000;
+    --color-bg: #1a1e2e;
+    --color-bg-alt: #1e2235;
+    --color-paper: #252a3a;
+    --color-bg-dark: #141726;
+    --color-bg-hero: #1a1e2e;
     --color-primary: #FF0000;
     --color-primary-light: #FF1A1A;
     --color-primary-dark: #CC0000;
@@ -22,10 +22,10 @@
     --color-text: #FFFFFF;
     --color-text-light: #999999;
     --color-text-inverse: #000000;
-    --color-border: #222222;
-    --color-rule: rgba(255, 255, 255, 0.1);
-    --color-card: #111111;
-    --color-shadow: rgba(0, 0, 0, 0.3);
+    --color-border: #2e3348;
+    --color-rule: rgba(255, 255, 255, 0.08);
+    --color-card: #252a3a;
+    --color-shadow: rgba(0, 0, 0, 0.4);
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-handwriting: 'Caveat', cursive;
@@ -97,7 +97,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     right: 0;
     top: 0;
     height: 2px;
-    background: linear-gradient(90deg, transparent 0%, rgba(44, 39, 31, 0.28) 18%, transparent 36%);
+    background: linear-gradient(90deg, transparent 0%, rgba(42, 47, 65, 0.35) 18%, transparent 36%);
     opacity: 0.45;
     z-index: -1;
 }
@@ -208,13 +208,13 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     z-index: 1000;
     padding: 16px 0;
     border-top: 2px solid rgba(194, 59, 59, 0.16);
-    border-bottom: 1px solid rgba(44, 39, 31, 0.07);
+    border-bottom: 1px solid rgba(42, 47, 65, 0.15);
     transition: var(--transition);
     background: transparent;
 }
 
 .navbar.scrolled {
-    background: rgba(0, 0, 0, 0.92);
+    background: rgba(26, 30, 46, 0.95);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     padding: 10px 0;
@@ -322,7 +322,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: #000000;
+    background: var(--color-bg);
 }
 
 .hero-bg::before {
@@ -395,7 +395,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .hero-badge {
     display: inline-block;
     padding: 8px 24px;
-    background: rgba(253, 249, 241, 0.1);
+    background: rgba(42, 47, 65, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 0;
     color: rgba(255, 255, 255, 0.9);
@@ -773,7 +773,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     overflow: hidden;
     box-shadow: var(--shadow-lg);
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    background: #0d1a29;
+    background: #1e2235;
     border: 8px solid var(--color-paper);
 }
 
@@ -832,7 +832,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     bottom: 14px;
     padding: 6px 12px;
     border-radius: 0;
-    background: rgba(13, 23, 37, 0.78);
+    background: rgba(26, 30, 46, 0.78);
     backdrop-filter: blur(8px);
     color: #fff;
     font-size: 0.78rem;
@@ -880,7 +880,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     top: 6px;
     bottom: 6px;
     width: 1px;
-    background: rgba(44, 39, 31, 0.12);
+    background: rgba(42, 47, 65, 0.2);
 }
 
 .stat-number {
@@ -935,9 +935,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle, #111111 0%, #0A0A0A 100%);
+    background: radial-gradient(circle, #252a3a 0%, #1e2235 100%);
     border: 1px solid rgba(255, 0, 0, 0.28);
-    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.48), 0 10px 24px rgba(39, 35, 30, 0.08);
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.48), 0 10px 24px rgba(0, 0, 0, 0.15);
     overflow: hidden;
 }
 
@@ -972,8 +972,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
             rgba(255, 255, 255, 0.25) 0 1px,
             transparent 1px 18px
         );
-    border-top: 1px solid rgba(44, 39, 31, 0.08);
-    border-bottom: 1px solid rgba(44, 39, 31, 0.08);
+    border-top: 1px solid rgba(42, 47, 65, 0.15);
+    border-bottom: 1px solid rgba(42, 47, 65, 0.15);
 }
 
 .video-filters {
@@ -1044,7 +1044,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: relative;
     aspect-ratio: 16/9;
     overflow: hidden;
-    background: linear-gradient(135deg, #1A3A4A, #2C5364);
+    background: linear-gradient(135deg, #252a3a, #2e3550);
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -1067,7 +1067,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(26, 30, 46, 0.5);
     opacity: 0;
     transition: var(--transition);
 }
@@ -1100,7 +1100,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     bottom: 10px;
     right: 10px;
     padding: 3px 8px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(26, 30, 46, 0.85);
     color: white;
     font-size: 0.8rem;
     font-weight: 600;
@@ -1154,7 +1154,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .traditions {
     padding: 120px 0;
     position: relative;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(247, 242, 232, 0.94));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(42, 47, 65, 0.6));
 }
 
 .traditions::before {
@@ -1217,7 +1217,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     width: 96px;
     height: 96px;
     border-radius: 50%;
-    background: radial-gradient(circle, #111111 0%, #0A0A0A 100%);
+    background: radial-gradient(circle, #252a3a 0%, #1e2235 100%);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1314,7 +1314,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: rgba(253, 249, 241, 0.92);
+    background: rgba(42, 47, 65, 0.92);
     border: 1px solid rgba(255, 0, 0, 0.42);
     display: grid;
     place-items: center;
@@ -1560,7 +1560,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .modal-backdrop {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(26, 30, 46, 0.9);
 }
 
 .modal-content {
@@ -1568,7 +1568,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     width: 100%;
     max-width: 900px;
     background: var(--color-card);
-    border: 1px solid rgba(44, 39, 31, 0.16);
+    border: 1px solid rgba(42, 47, 65, 0.2);
     border-radius: var(--radius-lg);
     overflow: hidden;
     transform: scale(0.9) translateY(20px);
@@ -1585,7 +1585,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     right: 16px;
     width: 40px;
     height: 40px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(26, 30, 46, 0.7);
     color: white;
     font-size: 1.5rem;
     border-radius: 50%;
