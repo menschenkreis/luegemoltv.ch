@@ -17,10 +17,10 @@
     --color-green-light: #FF1A1A;
     --color-gold: #FF0000;
     --color-swiss-red: #FF0000;
-    --color-ink: #F0F0F0;
-    --color-ink-soft: #D8D8D8;
-    --color-text: #F0F0F0;
-    --color-text-light: #B8B8B8;
+    --color-ink: #FFFFFF;
+    --color-ink-soft: #E8E8E8;
+    --color-text: #FFFFFF;
+    --color-text-light: #CCCCCC;
     --color-text-inverse: #000000;
     --color-border: #5e5e5e;
     --color-rule: rgba(255, 255, 255, 0.12);
@@ -163,7 +163,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .section-desc {
     font-size: 1.1rem;
-    color: var(--color-text-light);
+    color: #CCCCCC;
     max-width: 600px;
     line-height: 1.7;
 }
@@ -902,7 +902,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .about-text {
     font-size: 1.05rem;
     line-height: 1.8;
-    color: #e8e8e8;
+    color: #FFFFFF;
     margin-bottom: 16px;
 }
 
@@ -951,7 +951,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .feature p {
     font-size: 0.85rem;
-    color: #c8c8c8;
+    color: #E0E0E0;
     margin: 0;
 }
 
