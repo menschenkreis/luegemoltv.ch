@@ -902,7 +902,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .about-text {
     font-size: 1.05rem;
     line-height: 1.8;
-    color: #d0d0d0;
+    color: #e8e8e8;
     margin-bottom: 16px;
 }
 
@@ -951,7 +951,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .feature p {
     font-size: 0.85rem;
-    color: var(--color-text-light);
+    color: #c8c8c8;
     margin: 0;
 }
 
