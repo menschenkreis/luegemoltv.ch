@@ -679,8 +679,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     height: 100%;
     object-fit: cover;
     object-position: center;
-    opacity: 0.4;
-    mix-blend-mode: lighten;
+    opacity: 0.8;
+    mix-blend-mode: normal;
 }
 
 .footer-brand .logo-yt {
@@ -1647,7 +1647,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         background:
             linear-gradient(90deg, rgba(80, 80, 80, 0.76) 0%, rgba(85, 85, 85, 0.44) 54%, rgba(85, 85, 85, 0.18) 100%),
             linear-gradient(180deg, rgba(82, 82, 82, 0.42), rgba(86, 86, 86, 0.62)),
-            url('../images/hero-luegemoltv-summit.png?v=2') 62% center/cover;
+            url('../images/hero-luegemoltv-summit.png?v=3') 62% center/cover;
     }
 
     .about-grid {
@@ -1678,7 +1678,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     .hero-bg {
         background:
             linear-gradient(180deg, rgba(80, 80, 80, 0.2) 0%, rgba(80, 80, 80, 0.78) 64%, rgba(80, 80, 80, 0.94) 100%),
-            url('../images/hero-luegemoltv-summit-mobile.jpg?v=2') center top/cover;
+            url('../images/hero-luegemoltv-summit-mobile.jpg?v=3') center top/cover;
     }
 
     .hero-content {
