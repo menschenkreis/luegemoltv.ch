@@ -1163,7 +1163,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .tradition-card {
     padding: 34px;
-    background: var(--color-card);
+    background: #3a3a3a;
     border-radius: 6px;
     border: 1px solid var(--color-border);
     transition: var(--transition);
