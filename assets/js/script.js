@@ -115,7 +115,7 @@ const VIDEOS = [
 const CATEGORY_LABELS = {
     alp: "🏔️ Alpen",
     brauchtum: "🎭 Brauchtum",
-    natur: "🌿 Natur"
+    natur: "🎵 Volklore"
 };
 
 // ---- Initialize ----
