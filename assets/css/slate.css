@@ -210,7 +210,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 
 .navbar.scrolled {
-    background: rgba(90, 90, 90, 0.96);
+    background: rgba(90, 90, 90, 0.88);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     padding: 10px 0;
@@ -318,7 +318,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: var(--color-bg);
+    background: transparent;
 }
 
 .hero-bg::before {
@@ -391,7 +391,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .hero-badge {
     display: inline-block;
     padding: 8px 24px;
-    background: var(--color-bg);
+    background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 0;
     color: rgba(255, 255, 255, 0.9);
@@ -767,7 +767,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     overflow: hidden;
     box-shadow: var(--shadow-lg);
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    background: var(--color-bg);
+    background: transparent;
     border: 8px solid var(--color-paper);
 }
 
@@ -826,7 +826,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     bottom: 14px;
     padding: 6px 12px;
     border-radius: 0;
-    background: var(--color-bg);
+    background: transparent;
     backdrop-filter: blur(8px);
     color: #fff;
     font-size: 0.78rem;
@@ -874,7 +874,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     top: 6px;
     bottom: 6px;
     width: 1px;
-    background: var(--color-bg);
+    background: transparent;
 }
 
 .stat-number {
@@ -929,7 +929,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: var(--color-bg);
+    background: transparent;
     border: 1px solid rgba(255, 0, 0, 0.28);
     box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.48), 0 10px 24px rgba(0, 0, 0, 0.15);
     overflow: hidden;
@@ -958,7 +958,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 /* ---------- Video Album ---------- */
 .videos {
     padding: 120px 0;
-    background: var(--color-bg);
+    background: transparent;
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
 }
@@ -1031,7 +1031,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: relative;
     aspect-ratio: 16/9;
     overflow: hidden;
-    background: var(--color-bg);
+    background: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -1054,7 +1054,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--color-bg);
+    background: transparent;
     opacity: 0;
     transition: var(--transition);
 }
@@ -1087,7 +1087,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     bottom: 10px;
     right: 10px;
     padding: 3px 8px;
-    background: var(--color-bg);
+    background: transparent;
     color: white;
     font-size: 0.8rem;
     font-weight: 600;
@@ -1141,7 +1141,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .traditions {
     padding: 120px 0;
     position: relative;
-    background: var(--color-bg);
+    background: transparent;
 }
 
 .traditions::before {
@@ -1204,7 +1204,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     width: 96px;
     height: 96px;
     border-radius: 50%;
-    background: var(--color-bg);
+    background: transparent;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1239,7 +1239,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--color-green);
-    background: var(--color-bg);
+    background: transparent;
     padding: 4px 12px;
     border-radius: 100px;
     display: inline-block;
@@ -1250,7 +1250,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 /* ---------- Quote Section ---------- */
 .quote-section {
     padding: 124px 0;
-    background: var(--color-bg);
+    background: transparent;
     position: relative;
     overflow: hidden;
 }
@@ -1299,7 +1299,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: var(--color-bg);
+    background: transparent;
     border: 1px solid rgba(255, 0, 0, 0.42);
     display: grid;
     place-items: center;
@@ -1324,7 +1324,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 /* ---------- Contact ---------- */
 .contact {
     padding: 120px 0;
-    background: var(--color-bg);
+    background: transparent;
     position: relative;
 }
 
@@ -1405,7 +1405,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: absolute;
     inset: 0;
     z-index: 1;
-    background: var(--color-bg);
+    background: transparent;
 }
 
 .map-placeholder img {
@@ -1452,7 +1452,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 /* ---------- Footer ---------- */
 .footer {
     padding: 48px 0;
-    background: var(--color-bg-dark);
+    background: transparent;
     border-top: 1px solid var(--color-border);
     color: var(--color-ink-soft);
 }
@@ -1542,7 +1542,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .modal-backdrop {
     position: absolute;
     inset: 0;
-    background: var(--color-bg);
+    background: transparent;
 }
 
 .modal-content {
@@ -1567,7 +1567,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     right: 16px;
     width: 40px;
     height: 40px;
-    background: var(--color-bg);
+    background: transparent;
     color: white;
     font-size: 1.5rem;
     border-radius: 50%;
@@ -1704,7 +1704,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         left: 0;
         right: 0;
         bottom: 0;
-        background: var(--color-bg);
+        background: transparent;
         flex-direction: column;
         align-items: center;
         justify-content: center;
