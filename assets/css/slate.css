@@ -957,7 +957,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 /* ---------- Video Album ---------- */
 .videos {
-    padding: 120px 0;
+    padding: 36px 0 120px;
     background: transparent;
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
