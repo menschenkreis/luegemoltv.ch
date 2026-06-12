@@ -76,6 +76,20 @@ const VIDEOS = [
         duration: "",
         category: "brauchtum",
         desc: "Die Bodäfahrt 2025 – ein schweizweit einzigartiges Erlebnis mit über 14.000 Aufrufen."
+    },
+    {
+        id: "e9brgxG1Mv4",
+        title: "Alpabfahrt Appenzell Innerhoden 2025 – 9.400+ Aufrufe",
+        duration: "",
+        category: "alp",
+        desc: "Traditionelle Alpabfahrt in Appenzell Innerhoden 2025 – über 9.000 Mal angesehen."
+    },
+    {
+        id: "LwD5lzJVVUQ",
+        title: "Entlebucher Alpabfahrt, Schüpfheim 2025 – 8.700+ Aufrufe",
+        duration: "8:59",
+        category: "alp",
+        desc: "Die wunderschöne Entlebucher Alpabfahrt in Schüpfheim 2025 – ein Farbspektakel."
     }
 ];
 
