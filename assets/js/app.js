@@ -7,6 +7,13 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "jB_Id5y2b2c",
+        title: "Gotthelf Märit 2026 | Wie früecher – Handwerk, Musik und Emmentaler Köstlichkeiten in Sumiswald",
+        duration: "4:59",
+        category: "brauchtum",
+        desc: "Handwerk, Musik und Emmentaler Köstlichkeiten – der Gotthelf Märit 2026 in Sumiswald wie zu früheren Zeiten."
+    },
+    {
         id: "qmbKNVlmZz8",
         title: "Alpaufzug im Val d'Hérens – Wenn Eringerkühe auf die Alpage d'Arbey ziehen",
         duration: "6:04",
@@ -76,13 +83,6 @@ const VIDEOS = [
         duration: "",
         category: "brauchtum",
         desc: "Die Bodäfahrt 2025 – ein schweizweit einzigartiges Erlebnis mit über 14.000 Aufrufen."
-    },
-    {
-        id: "e9brgxG1Mv4",
-        title: "Alpabfahrt Appenzell Innerhoden 2025 – 9.400+ Aufrufe",
-        duration: "",
-        category: "alp",
-        desc: "Traditionelle Alpabfahrt in Appenzell Innerhoden 2025 – über 9.000 Mal angesehen."
     },
     {
         id: "LwD5lzJVVUQ",
