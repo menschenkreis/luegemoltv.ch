@@ -1953,15 +1953,36 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     }
 
     .quote-ornament {
-        width: 104px;
-        height: 104px;
-        right: 22px;
-        bottom: -30px;
+        position: relative;
+        right: auto;
+        bottom: auto;
+        width: 96px;
+        height: 96px;
+        margin: 28px auto 0;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
     }
 
     .quote-ornament img {
-        width: 86px;
-        height: 86px;
+        width: 78px;
+        height: 78px;
+    }
+
+    .quote-section {
+        padding: 92px 0 96px;
+    }
+
+    .quote-mark {
+        font-size: 5rem;
+        margin-bottom: 10px;
+    }
+
+    .travel-quote p {
+        font-size: clamp(1.35rem, 6vw, 1.65rem);
+        line-height: 1.55;
+    }
+
+    .travel-quote footer {
+        margin-top: 18px;
     }
 
     .footer-content {
