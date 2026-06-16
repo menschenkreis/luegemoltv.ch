@@ -108,8 +108,16 @@ const CATEGORY_LABELS = {
     natur: "🎵 Volklore"
 };
 
+const HASH_ALIASES = {
+    "#home": "#start",
+    "#about": "#ueber-uns",
+    "#traditions": "#brauchtum",
+    "#contact": "#kontakt"
+};
+
 // ---- Initialize ----
 document.addEventListener("DOMContentLoaded", () => {
+    normalizeHashAlias();
     initNavbar();
     initVideoGrid();
     initFilters();
@@ -118,7 +126,18 @@ document.addEventListener("DOMContentLoaded", () => {
     initScrollReveal();
     initCountUp();
     initIntroPlay();
+    window.addEventListener("hashchange", normalizeHashAlias);
 });
+
+function normalizeHashAlias() {
+    const targetHash = HASH_ALIASES[window.location.hash];
+    if (!targetHash) return;
+
+    history.replaceState(null, "", targetHash);
+    requestAnimationFrame(() => {
+        document.querySelector(targetHash)?.scrollIntoView();
+    });
+}
 
 // ---- Navbar ----
 function initNavbar() {
