@@ -1764,15 +1764,19 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0;
-        background: rgba(22, 22, 22, 0.98);
+        bottom: auto;
+        height: 100vh;
+        height: 100dvh;
+        background: #161616;
         backdrop-filter: blur(28px);
         -webkit-backdrop-filter: blur(28px);
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
-        padding-top: 80px;
+        padding: 104px 24px 40px;
+        overflow-y: auto;
+        z-index: 1000;
         opacity: 0;
         visibility: hidden;
         transform: translateY(-12px);
@@ -1791,6 +1795,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
     .nav-links li {
         list-style: none;
+        width: min(320px, calc(100vw - 48px));
     }
 
     .nav-links li {
@@ -1812,15 +1817,42 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
     .nav-links a {
         color: rgba(255, 255, 255, 0.92) !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 54px;
+        padding: 14px 24px;
+        border-radius: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        background: #303030;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
         font-size: 1.15rem;
         letter-spacing: 1.2px;
         text-transform: uppercase;
-        padding: 10px 24px;
-        transition: color 0.2s ease;
+        transition:
+            background-color 0.2s ease,
+            border-color 0.2s ease,
+            color 0.2s ease,
+            transform 0.2s ease;
     }
 
-    .nav-links a:hover {
-        color: var(--color-swiss-red) !important;
+    .nav-links a::after {
+        display: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+        color: #fff !important;
+        background: #3a3a3a;
+        border-color: rgba(255, 0, 0, 0.58);
+        transform: translateY(-1px);
+        outline: none;
+    }
+
+    .nav-links a:active {
+        background: #444;
+        transform: translateY(0);
     }
 
     .nav-toggle { display: flex; z-index: 1001; }
