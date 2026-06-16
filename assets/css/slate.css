@@ -772,15 +772,25 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .about-img {
     position: absolute;
+    display: block;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     background: transparent;
     border: 8px solid #3a3a3a;
+    color: inherit;
 }
 
-.about-img:hover { transform: translateY(-8px) scale(1.02); }
+.about-img:hover,
+.about-img:focus-visible {
+    transform: translateY(-8px) scale(1.02);
+}
+
+.about-img:focus-visible {
+    outline: 3px solid var(--color-swiss-red);
+    outline-offset: 4px;
+}
 
 .about-img-1 {
     top: 0;
@@ -1019,6 +1029,30 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     gap: 28px;
+}
+
+.video-empty {
+    grid-column: 1 / -1;
+    display: grid;
+    gap: 6px;
+    justify-items: center;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 28px 24px;
+    text-align: center;
+    color: var(--color-text-light);
+    background: rgba(58, 58, 58, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 6px;
+}
+
+.video-empty strong {
+    color: var(--color-ink);
+    font-size: 1rem;
+}
+
+.video-empty span {
+    font-size: 0.92rem;
 }
 
 .video-card {

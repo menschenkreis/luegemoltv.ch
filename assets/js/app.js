@@ -17,35 +17,35 @@ const VIDEOS = [
         id: "qmbKNVlmZz8",
         title: "Alpaufzug im Val d'Hérens – Wenn Eringerkühe auf die Alpage d'Arbey ziehen",
         duration: "6:04",
-        category: "alp",
+        category: "alpaufzug",
         desc: "Eringerkühe auf dem Weg zur Alpage d'Arbey im wunderschönen Val d'Hérens."
     },
     {
         id: "u5A9KaIO4Tk",
         title: "Alpfahrt Appenzellerland 2026 – Mehrere Alpaufzüge zur Schwägalp und ins Alpsteingebiet",
         duration: "4:09",
-        category: "alp",
+        category: "alpaufzug",
         desc: "Mehrere traditionelle Alpaufzüge im Appenzellerland zur Schwägalp und ins Alpsteingebiet."
     },
     {
         id: "uJPDOp42Hu4",
         title: "Öberefahre in Urnäsch – Alpaufzug im Appenzellerland",
         duration: "5:31",
-        category: "alp",
+        category: "alpaufzug",
         desc: "Die Öberefahre in Urnäsch – ein traditionsreicher Alpaufzug im Appenzellerland."
     },
     {
         id: "bXv7LiUHJRM",
         title: "Teigwahlen, Feuer & Konfetti – Badener Fasnacht 2026 hautnah!",
         duration: "6:53",
-        category: "brauchtum",
+        category: "fasnacht",
         desc: "Die Badener Fasnacht 2026 mit Teigwahlen, Feuer und Konfetti – hautnah miterlebt."
     },
     {
         id: "69pH5r6FewU",
         title: "Tschäggättä Lötschental 2026 – Tradition trotzt dem Bergsturz",
         duration: "8:26",
-        category: "brauchtum",
+        category: "tschaeggattae",
         desc: "Die wilden Tschäggättä im Lötschental – ein Brauchtum, das trotz Bergsturz weiterlebt."
     },
     // --- 5 Meistangesehene Videos ---
@@ -53,21 +53,21 @@ const VIDEOS = [
         id: "Qmi6_tt-a4M",
         title: "Alpabzug Engstligenalp 2025 – 68.500+ Aufrufe",
         duration: "7:28",
-        category: "alp",
+        category: "alpabzug",
         desc: "Der wunderschöne Alpabzug auf der Engstligenalp 2025 – das meistgesehene LuegemolTV-Video."
     },
     {
         id: "G0oUDRckGf4",
         title: "Alpaufzug Engstligenalp 2025 – 33.800+ Aufrufe",
         duration: "",
-        category: "alp",
+        category: "alpaufzug",
         desc: "Der Alpaufzug auf die Engstligenalp 2025 – über 33.000 Mal angesehen."
     },
     {
         id: "tS9PWTHDc_A",
         title: "Alpabzug Flimserstein 2025 – 22.000+ Aufrufe",
         duration: "12:45",
-        category: "alp",
+        category: "alpabzug",
         desc: "Der farbenfrohe Alpabzug am Flimserstein 2025 – ein Publikumsmagnet."
     },
     {
@@ -88,14 +88,23 @@ const VIDEOS = [
         id: "LwD5lzJVVUQ",
         title: "Entlebucher Alpabfahrt, Schüpfheim 2025 – 8.700+ Aufrufe",
         duration: "8:59",
-        category: "alp",
+        category: "alpabzug",
         desc: "Die wunderschöne Entlebucher Alpabfahrt in Schüpfheim 2025 – ein Farbspektakel."
     }
 ];
 
 const CATEGORY_LABELS = {
+    alpaufzug: "🐄 Alpaufzüge",
+    alpabzug: "🔔 Alpabzüge",
+    trachtenfest: "👗 Trachtenfeste",
+    jodelfest: "🎵 Jodelfeste",
+    fasnacht: "🎭 Fasnacht",
+    tschaeggattae: "👹 Tschäggättä",
+    carnaval: "🎊 Carnaval",
+    bekanntmachen: "📣 Brauchtümer bekannt machen",
+    bewahren: "🏛️ Traditionen bewahren",
+    brauchtum: "🕯️ Brauchtum",
     alp: "🏔️ Alpen",
-    brauchtum: "🎭 Brauchtum",
     natur: "🎵 Volklore"
 };
 
@@ -104,6 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initNavbar();
     initVideoGrid();
     initFilters();
+    initAboutImageLinks();
     initModal();
     initScrollReveal();
     initCountUp();
@@ -142,6 +152,17 @@ function initVideoGrid() {
 
 function renderVideos(videos, container) {
     container.innerHTML = "";
+    if (!videos.length) {
+        const empty = document.createElement("div");
+        empty.className = "video-empty";
+        empty.innerHTML = `
+            <strong>Aktuell sind in dieser Kategorie keine Videos ausgewählt.</strong>
+            <span>Über den YouTube-Kanal findest du weitere Filme von LuegemolTV.</span>
+        `;
+        container.appendChild(empty);
+        return;
+    }
+
     videos.forEach((video, index) => {
         const card = createVideoCard(video, index);
         container.appendChild(card);
@@ -181,22 +202,47 @@ function createVideoCard(video, index) {
 }
 
 // ---- Filters ----
+function getFilteredVideos(filter) {
+    if (filter === "all") return VIDEOS;
+    return VIDEOS.filter(video =>
+        video.category === filter || (Array.isArray(video.tags) && video.tags.includes(filter))
+    );
+}
+
+function setActiveFilter(filter) {
+    document.querySelectorAll(".filter-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.filter === filter);
+    });
+}
+
+function applyVideoFilter(filter, options = {}) {
+    const grid = document.getElementById("videoGrid");
+    if (!grid) return;
+
+    setActiveFilter(filter);
+    renderVideos(getFilteredVideos(filter), grid);
+    setTimeout(() => initScrollReveal(), 50);
+
+    if (options.scroll) {
+        document.getElementById("videos")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+}
+
 function initFilters() {
     const buttons = document.querySelectorAll(".filter-btn");
     buttons.forEach(btn => {
         btn.addEventListener("click", () => {
-            buttons.forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
+            applyVideoFilter(btn.dataset.filter);
+        });
+    });
+}
 
-            const filter = btn.dataset.filter;
-            const grid = document.getElementById("videoGrid");
-            const filtered = filter === "all"
-                ? VIDEOS
-                : VIDEOS.filter(v => v.category === filter);
-
-            renderVideos(filtered, grid);
-            // Re-trigger reveal
-            setTimeout(() => initScrollReveal(), 50);
+function initAboutImageLinks() {
+    document.querySelectorAll("[data-video-filter]").forEach(link => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+            history.pushState(null, "", "#videos");
+            applyVideoFilter(link.dataset.videoFilter, { scroll: true });
         });
     });
 }
