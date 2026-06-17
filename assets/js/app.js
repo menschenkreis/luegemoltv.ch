@@ -81,7 +81,7 @@ const VIDEOS = [
         id: "XfpmrERRD68",
         title: "Bodäfahrt 2025 – 14.700+ Aufrufe",
         duration: "",
-        category: "brauchtum",
+        category: "alpabzug",
         desc: "Die Bodäfahrt 2025 – ein schweizweit einzigartiges Erlebnis mit über 14.000 Aufrufen."
     },
     {
@@ -105,6 +105,7 @@ const CATEGORY_LABELS = {
     bewahren: "🏛️ Traditionen bewahren",
     brauchtum: "🕯️ Brauchtum",
     alp: "🏔️ Alpen",
+    alpabzug: "🔔 Alpabzüge",
     natur: "🎵 Volklore"
 };
 
