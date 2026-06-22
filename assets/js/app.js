@@ -7,6 +7,13 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "YtO3VItiKko",
+        title: "Atemberaubender Alpaufzug Engstligenalp 2026 – Der wohl steilste Alpaufzug der Schweiz",
+        duration: "",
+        category: "alpaufzug",
+        desc: "Steilster Alpaufzug der Schweiz: Jungmannschaft der Familie Kleinjenni im Interview – Engstligenalp 2026."
+    },
+    {
         id: "jB_Id5y2b2c",
         title: "Gotthelf Märit 2026 | Wie früecher – Handwerk, Musik und Emmentaler Köstlichkeiten in Sumiswald",
         duration: "4:59",
