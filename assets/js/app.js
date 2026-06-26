@@ -52,7 +52,7 @@ const VIDEOS = [
         id: "69pH5r6FewU",
         title: "Tschäggättä Lötschental 2026 – Tradition trotzt dem Bergsturz",
         duration: "8:26",
-        category: "tschaeggattae",
+        category: "brauchtum",
         desc: "Die wilden Tschäggättä im Lötschental – ein Brauchtum, das trotz Bergsturz weiterlebt."
     },
     // --- 5 Meistangesehene Videos ---
@@ -106,7 +106,7 @@ const CATEGORY_LABELS = {
     trachtenfest: "👗 Trachtenfeste",
     jodelfest: "🎵 Jodelfeste",
     fasnacht: "🎭 Fasnacht",
-    tschaeggattae: "👹 Tschäggättä",
+
     carnaval: "🎊 Carnaval",
     bekanntmachen: "📣 Brauchtümer bekannt machen",
     bewahren: "🏛️ Traditionen bewahren",
