@@ -29,10 +29,10 @@ const VIDEOS = [
     },
     {
         id: "u5A9KaIO4Tk",
-        title: "Alpfahrt Appenzellerland 2026 – Mehrere Alpaufzüge zur Schwägalp und ins Alpsteingebiet",
+        title: "Alpfahrt Appenzellerland 2026 – Mehrere Alpaufzug zur Schwägalp und ins Alpsteingebiet",
         duration: "4:09",
         category: "alpaufzug",
-        desc: "Mehrere traditionelle Alpaufzüge im Appenzellerland zur Schwägalp und ins Alpsteingebiet."
+        desc: "Mehrere traditionelle Alpaufzug im Appenzellerland zur Schwägalp und ins Alpsteingebiet."
     },
     {
         id: "uJPDOp42Hu4",
@@ -101,8 +101,8 @@ const VIDEOS = [
 ];
 
 const CATEGORY_LABELS = {
-    alpaufzug: "🐄 Alpaufzüge",
-    alpabzug: "🔔 Alpabzüge",
+    alpaufzug: "🐄 Alpaufzug",
+    alpabzug: "🔔 Alpabzug",
     trachtenfest: "👗 Trachtenfeste",
     jodelfest: "🎵 Jodelfeste",
     fasnacht: "🎭 Fasnacht",
@@ -112,7 +112,7 @@ const CATEGORY_LABELS = {
     bewahren: "🏛️ Traditionen bewahren",
     brauchtum: "🕯️ Brauchtum",
     alp: "🏔️ Alpen",
-    alpabzug: "🔔 Alpabzüge",
+    alpabzug: "🔔 Alpabzug",
     natur: "🎵 Volklore"
 };
 
