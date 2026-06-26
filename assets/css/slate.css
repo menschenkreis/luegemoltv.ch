@@ -444,7 +444,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 .title-highlight {
     display: block;
-    color: #FF0033;
+    color: #fff;
     text-shadow: 0 0 30px rgba(255, 0, 51, 0.8), 0 0 80px rgba(255, 0, 51, 0.5), 0 0 160px rgba(255, 0, 51, 0.3), 0 4px 12px rgba(0, 0, 0, 0.6);
     -webkit-text-stroke: 3px #000;
 }
