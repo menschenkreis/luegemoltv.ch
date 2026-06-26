@@ -5,11 +5,11 @@
 
 /* ---------- CSS Variables ---------- */
 :root {
-    --color-bg: #1a1a2e;
-    --color-bg-alt: #222240;
-    --color-paper: #27274a;
-    --color-bg-dark: #141428;
-    --color-bg-hero: #1a1a2e;
+    --color-bg: #3a3a3a;
+    --color-bg-alt: #424242;
+    --color-paper: #4a4a4a;
+    --color-bg-dark: #2e2e2e;
+    --color-bg-hero: #3a3a3a;
     --color-primary: #FF0033;
     --color-primary-light: #FF2244;
     --color-primary-dark: #CC0022;
@@ -22,9 +22,9 @@
     --color-text: #F0F0FF;
     --color-text-light: #A8A8CC;
     --color-text-inverse: #FFFFFF;
-    --color-border: #3a3a5e;
+    --color-border: #555;
     --color-rule: rgba(255, 255, 255, 0.18);
-    --color-card: #27274a;
+    --color-card: #4a4a4a;
     --color-shadow: rgba(0, 0, 0, 0.45);
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -52,7 +52,7 @@ body {
     color: var(--color-text);
     background:
         url('../images/slate-texture.png'),
-        #0e0e1e;
+        #3a3a3a;
     line-height: 1.75;
     font-weight: 400;
     color: var(--color-ink);
@@ -318,14 +318,14 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: #0e0e1e;
+    background: #3a3a3a;
 }
 
 .hero-bg::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: #0e0e1e;
+    background: #3a3a3a;
 }
 
 .hero-bg::after {
@@ -342,7 +342,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     right: 0;
     top: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 5%, rgba(255, 0, 51, 0.3) 30%, rgba(255, 0, 51, 0.3) 70%, transparent 95%);
+    background: linear-gradient(90deg, transparent 5%, rgba(255, 0, 0, 0.3) 30%, rgba(255, 0, 0, 0.3) 70%, transparent 95%);
     z-index: 2;
 }
 
@@ -353,15 +353,15 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     right: 0;
     bottom: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 5%, rgba(255, 0, 51, 0.3) 30%, rgba(255, 0, 51, 0.3) 70%, transparent 95%);
+    background: linear-gradient(90deg, transparent 5%, rgba(255, 0, 0, 0.3) 30%, rgba(255, 0, 0, 0.3) 70%, transparent 95%);
     z-index: 2;
 }
 
 .hero-bg-drift {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(circle at 16% 40%, rgba(255, 0, 51, 0.06) 0%, transparent 35%),
-                      radial-gradient(circle at 86% 20%, rgba(255, 0, 51, 0.04) 0%, transparent 40%);
+    background-image: radial-gradient(circle at 16% 40%, rgba(255, 0, 0, 0.06) 0%, transparent 35%),
+                      radial-gradient(circle at 86% 20%, rgba(255, 0, 0, 0.04) 0%, transparent 40%);
     mix-blend-mode: normal;
     animation: driftShift 14s ease-in-out infinite alternate;
     pointer-events: none;
@@ -383,7 +383,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(circle at 58% 40%, rgba(255, 0, 51, 0.12), rgba(255, 0, 51, 0));
+        radial-gradient(circle at 58% 40%, rgba(255, 0, 0, 0.12), rgba(255, 0, 0, 0));
 }
 
 .hero-content {
@@ -445,7 +445,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .title-highlight {
     display: block;
     color: #fff;
-    text-shadow: 0 0 30px rgba(255, 0, 51, 0.8), 0 0 80px rgba(255, 0, 51, 0.5), 0 0 160px rgba(255, 0, 51, 0.3), 0 4px 12px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0 30px rgba(255, 0, 0, 0.8), 0 0 80px rgba(255, 0, 0, 0.5), 0 0 160px rgba(255, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
 .hero-subtitle {
@@ -863,7 +863,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     background: var(--color-card);
     border-radius: 6px;
     box-shadow: var(--shadow-md);
-    border: 1px solid rgba(255, 0, 51, 0.2);
+    border: 1px solid rgba(255, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
 }
@@ -949,7 +949,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     align-items: center;
     justify-content: center;
     background: transparent;
-    border: 1px solid rgba(255, 0, 51, 0.35);
+    border: 1px solid rgba(255, 0, 0, 0.35);
     box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.08), 0 10px 24px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
@@ -977,7 +977,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 /* ---------- Video Album ---------- */
 .videos {
     padding: 18px 0 120px;
-    background: rgba(20, 20, 40, 0.3);
+    background: rgba(46, 46, 46, 0.3);
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
 }
@@ -1031,8 +1031,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     padding: 28px 24px;
     text-align: center;
     color: var(--color-text-light);
-    background: rgba(30, 30, 58, 0.6);
-    border: 1px solid rgba(255, 0, 51, 0.2);
+    background: rgba(58, 58, 58, 0.6);
+    border: 1px solid rgba(255, 0, 0, 0.2);
     border-radius: 6px;
 }
 
@@ -1053,7 +1053,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     transition: var(--transition);
     cursor: pointer;
     position: relative;
-    border: 1px solid rgba(255, 0, 51, 0.2);
+    border: 1px solid rgba(255, 0, 0, 0.2);
 }
 
 .video-card:hover {
@@ -1265,9 +1265,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: flex;
     flex-direction: column;
     padding: 34px;
-    background: linear-gradient(145deg, #2a2a4e, #1e1e3a);
+    background: linear-gradient(145deg, #4a4a4a, #3a3a3a);
     border-radius: 6px;
-    border: 1px solid rgba(255, 0, 51, 0.2);
+    border: 1px solid rgba(255, 0, 0, 0.2);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
@@ -1309,7 +1309,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     align-items: center;
     justify-content: center;
     margin-bottom: 22px;
-    border: 1px solid rgba(255, 0, 51, 0.35);
+    border: 1px solid rgba(255, 0, 0, 0.35);
     box-shadow: inset 0 0 0 7px rgba(255, 255, 255, 0.08), 0 12px 28px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
@@ -1820,13 +1820,13 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     }
 
     .navbar {
-        background: rgba(26, 26, 46, 0.95);
+        background: rgba(58, 58, 58, 0.95);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
     }
 
     .navbar.scrolled {
-        background: rgba(20, 20, 40, 0.97);
+        background: rgba(46, 46, 46, 0.97);
     }
 
     .nav-links {
@@ -1838,7 +1838,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         bottom: auto;
         height: 100vh;
         height: 100dvh;
-        background: #0e0e1e;
+        background: #3a3a3a;
         backdrop-filter: blur(28px);
         -webkit-backdrop-filter: blur(28px);
         flex-direction: column;
@@ -1896,7 +1896,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         padding: 14px 24px;
         border-radius: 6px;
         border: 1px solid rgba(255, 255, 255, 0.16);
-        background: #1e1e3a;
+        background: #3a3a3a;
         box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
         font-size: 1.15rem;
         letter-spacing: 1.2px;
@@ -1915,14 +1915,14 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     .nav-links a:hover,
     .nav-links a:focus-visible {
         color: #fff !important;
-        background: #2a2a4e;
+        background: #4a4a4a;
         border-color: rgba(255, 0, 0, 0.58);
         transform: translateY(-1px);
         outline: none;
     }
 
     .nav-links a:active {
-        background: #333366;
+        background: #555;
         transform: translateY(0);
     }
 
