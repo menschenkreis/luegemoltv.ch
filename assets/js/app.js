@@ -45,7 +45,7 @@ const VIDEOS = [
         id: "bXv7LiUHJRM",
         title: "Teigwahlen, Feuer & Konfetti – Badener Fasnacht 2026 hautnah!",
         duration: "6:53",
-        category: "fasnacht",
+        category: "brauchtum",
         desc: "Die Badener Fasnacht 2026 mit Teigwahlen, Feuer und Konfetti – hautnah miterlebt."
     },
     {
@@ -105,9 +105,6 @@ const CATEGORY_LABELS = {
     alpabzug: "🔔 Alpabzug",
     trachtenfest: "👗 Trachtenfeste",
     jodelfest: "🎵 Jodelfeste",
-    fasnacht: "🎭 Fasnacht",
-
-    carnaval: "🎊 Carnaval",
     bekanntmachen: "📣 Brauchtümer bekannt machen",
     bewahren: "🏛️ Traditionen bewahren",
     brauchtum: "🕯️ Brauchtum",
