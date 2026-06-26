@@ -342,7 +342,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     right: 0;
     top: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.6) 70%, transparent 95%);
+    background: linear-gradient(90deg, transparent 5%, rgba(255, 0, 51, 0.3) 30%, rgba(255, 0, 51, 0.3) 70%, transparent 95%);
     z-index: 2;
 }
 
@@ -353,16 +353,16 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     right: 0;
     bottom: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.6) 70%, transparent 95%);
+    background: linear-gradient(90deg, transparent 5%, rgba(255, 0, 51, 0.3) 30%, rgba(255, 0, 51, 0.3) 70%, transparent 95%);
     z-index: 2;
 }
 
 .hero-bg-drift {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(circle at 16% 40%, rgba(255, 255, 255, 0.09) 0%, transparent 35%),
-                      radial-gradient(circle at 86% 20%, rgba(255, 255, 255, 0.07) 0%, transparent 40%);
-    mix-blend-mode: screen;
+    background-image: radial-gradient(circle at 16% 40%, rgba(255, 0, 51, 0.06) 0%, transparent 35%),
+                      radial-gradient(circle at 86% 20%, rgba(255, 0, 51, 0.04) 0%, transparent 40%);
+    mix-blend-mode: normal;
     animation: driftShift 14s ease-in-out infinite alternate;
     pointer-events: none;
 }
@@ -383,12 +383,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     position: absolute;
     inset: 0;
     background:
-        repeating-linear-gradient(
-            65deg,
-            rgba(255, 255, 255, 0.03) 0 1px,
-            transparent 1px 18px
-        ),
-        radial-gradient(circle at 58% 40%, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0));
+        radial-gradient(circle at 58% 40%, rgba(255, 0, 51, 0.12), rgba(255, 0, 51, 0));
 }
 
 .hero-content {
@@ -683,8 +678,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     height: 100%;
     object-fit: cover;
     object-position: center;
-    opacity: 0.8;
+    opacity: 1;
     mix-blend-mode: normal;
+    filter: saturate(1.4) contrast(1.15) brightness(1.05);
 }
 
 .footer-brand .logo-yt {
