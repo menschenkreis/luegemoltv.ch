@@ -5,27 +5,27 @@
 
 /* ---------- CSS Variables ---------- */
 :root {
-    --color-bg: #484848;
-    --color-bg-alt: #4c4c4c;
-    --color-paper: #525252;
-    --color-bg-dark: #3a3a3a;
-    --color-bg-hero: #484848;
-    --color-primary: #FF0000;
-    --color-primary-light: #FF1A1A;
-    --color-primary-dark: #CC0000;
-    --color-green: #FF0000;
-    --color-green-light: #FF1A1A;
-    --color-gold: #FF0000;
-    --color-swiss-red: #FF0000;
-    --color-ink: #F0F0F0;
-    --color-ink-soft: #D8D8D8;
-    --color-text: #F0F0F0;
-    --color-text-light: #B8B8B8;
-    --color-text-inverse: #000000;
-    --color-border: #5e5e5e;
-    --color-rule: rgba(255, 255, 255, 0.12);
-    --color-card: #525252;
-    --color-shadow: rgba(0, 0, 0, 0.3);
+    --color-bg: #1a1a2e;
+    --color-bg-alt: #222240;
+    --color-paper: #27274a;
+    --color-bg-dark: #141428;
+    --color-bg-hero: #1a1a2e;
+    --color-primary: #FF0033;
+    --color-primary-light: #FF2244;
+    --color-primary-dark: #CC0022;
+    --color-green: #00CC66;
+    --color-green-light: #22DD88;
+    --color-gold: #FFD700;
+    --color-swiss-red: #FF0033;
+    --color-ink: #FFFFFF;
+    --color-ink-soft: #E0E0F0;
+    --color-text: #F0F0FF;
+    --color-text-light: #A8A8CC;
+    --color-text-inverse: #FFFFFF;
+    --color-border: #3a3a5e;
+    --color-rule: rgba(255, 255, 255, 0.18);
+    --color-card: #27274a;
+    --color-shadow: rgba(0, 0, 0, 0.45);
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-handwriting: 'Caveat', cursive;
@@ -873,7 +873,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     background: var(--color-card);
     border-radius: 6px;
     box-shadow: var(--shadow-md);
-    border: 1px solid rgba(74, 74, 74, 0.15);
+    border: 1px solid rgba(255, 0, 51, 0.2);
     position: relative;
     overflow: hidden;
 }
@@ -959,8 +959,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     align-items: center;
     justify-content: center;
     background: transparent;
-    border: 1px solid rgba(255, 0, 0, 0.28);
-    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.48), 0 10px 24px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 0, 51, 0.35);
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.08), 0 10px 24px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 
@@ -987,7 +987,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 /* ---------- Video Album ---------- */
 .videos {
     padding: 18px 0 120px;
-    background: transparent;
+    background: rgba(20, 20, 40, 0.3);
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
 }
@@ -1041,8 +1041,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     padding: 28px 24px;
     text-align: center;
     color: var(--color-text-light);
-    background: rgba(58, 58, 58, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: rgba(30, 30, 58, 0.6);
+    border: 1px solid rgba(255, 0, 51, 0.2);
     border-radius: 6px;
 }
 
@@ -1063,7 +1063,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     transition: var(--transition);
     cursor: pointer;
     position: relative;
-    border: 1px solid rgba(74, 74, 74, 0.15);
+    border: 1px solid rgba(255, 0, 51, 0.2);
 }
 
 .video-card:hover {
@@ -1275,13 +1275,13 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     display: flex;
     flex-direction: column;
     padding: 34px;
-    background: #3a3a3a;
+    background: linear-gradient(145deg, #2a2a4e, #1e1e3a);
     border-radius: 6px;
-    border: 1px solid var(--color-border);
+    border: 1px solid rgba(255, 0, 51, 0.2);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
 }
 
 .tradition-card::before {
@@ -1319,8 +1319,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     align-items: center;
     justify-content: center;
     margin-bottom: 22px;
-    border: 1px solid rgba(255, 0, 0, 0.24);
-    box-shadow: inset 0 0 0 7px rgba(255, 255, 255, 0.52), 0 12px 28px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 0, 51, 0.35);
+    box-shadow: inset 0 0 0 7px rgba(255, 255, 255, 0.08), 0 12px 28px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 
@@ -1840,13 +1840,13 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     }
 
     .navbar {
-        background: rgba(48, 48, 48, 0.95);
+        background: rgba(26, 26, 46, 0.95);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
     }
 
     .navbar.scrolled {
-        background: rgba(40, 40, 40, 0.97);
+        background: rgba(20, 20, 40, 0.97);
     }
 
     .nav-links {
@@ -1858,7 +1858,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         bottom: auto;
         height: 100vh;
         height: 100dvh;
-        background: #161616;
+        background: #0e0e1e;
         backdrop-filter: blur(28px);
         -webkit-backdrop-filter: blur(28px);
         flex-direction: column;
@@ -1916,7 +1916,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         padding: 14px 24px;
         border-radius: 6px;
         border: 1px solid rgba(255, 255, 255, 0.16);
-        background: #303030;
+        background: #1e1e3a;
         box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
         font-size: 1.15rem;
         letter-spacing: 1.2px;
@@ -1935,14 +1935,14 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     .nav-links a:hover,
     .nav-links a:focus-visible {
         color: #fff !important;
-        background: #3a3a3a;
+        background: #2a2a4e;
         border-color: rgba(255, 0, 0, 0.58);
         transform: translateY(-1px);
         outline: none;
     }
 
     .nav-links a:active {
-        background: #444;
+        background: #333366;
         transform: translateY(0);
     }
 
