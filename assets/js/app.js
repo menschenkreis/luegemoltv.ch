@@ -7,6 +7,13 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "-Sa1Wl-tV1s",
+        title: "32. Eidgenössisches Jodlerfest Basel: Jodel, Alphorn & Fahnenschwingen – Die Höhepunkte",
+        duration: "",
+        category: "jodelfest",
+        desc: "Stimmungsvolle Jodlervorträge, kraftvolle Alphornklänge und die beeindruckende Kunst der Fahnenschwinger – die Höhepunkte des 32. Eidgenössischen Jodlerfests in Basel."
+    },
+    {
         id: "YtO3VItiKko",
         title: "Atemberaubender Alpaufzug Engstligenalp 2026 – Der wohl steilste Alpaufzug der Schweiz",
         duration: "",
