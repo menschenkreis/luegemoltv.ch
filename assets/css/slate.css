@@ -814,8 +814,22 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     z-index: 2;
 }
 
+.about-img-5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36%;
+    height: 180px;
+    z-index: 4;
+}
+
+.about-img-5:hover {
+    transform: translate(-50%, -50%) translateY(-8px) scale(1.02);
+}
+
 .about-img-3 img { object-position: center center; }
 .about-img-4 img { object-position: center center; }
+.about-img-5 img { object-fit: cover; object-position: center 30%; }
 
 .about-img-1 img { object-position: 58% center; }
 .about-img-2 img { object-position: 64% center; }
@@ -2001,6 +2015,11 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
         right: 4px;
         width: 44%;
         height: 160px;
+    }
+
+    .about-img-5 {
+        width: 38%;
+        height: 150px;
     }
 
     .feature-icon {
