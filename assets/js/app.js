@@ -110,7 +110,6 @@ const VIDEOS = [
 const CATEGORY_LABELS = {
     alpaufzug: "🐄 Alpaufzug",
     alpabzug: "🔔 Alpabzug",
-    trachtenfest: "👗 Trachtenfeste",
     jodelfest: "🎵 Jodelfeste",
     bekanntmachen: "📣 Brauchtümer bekannt machen",
     bewahren: "🏛️ Traditionen bewahren",
