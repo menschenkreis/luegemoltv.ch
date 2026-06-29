@@ -116,7 +116,6 @@ const CATEGORY_LABELS = {
     brauchtum: "🕯️ Brauchtum",
     alp: "🏔️ Alpen",
     alpabzug: "🔔 Alpabzug",
-    natur: "🎵 Volklore"
 };
 
 const HASH_ALIASES = {
