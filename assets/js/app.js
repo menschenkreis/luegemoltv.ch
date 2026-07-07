@@ -7,6 +7,13 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "q9IpWKlAqUs",
+        title: "100 Jahre Furka-Oberalp-Bahn – Dampflok-Fahrt durch die Schweizer Alpen",
+        duration: "",
+        category: "brauchtum",
+        desc: "100 Jahre Furka-Oberalp-Bahn – ein Jubiläum mit imposanten Dampflokomotiven in Gletsch und Muttbach, stimmungsvollen Festaktivitäten in Realp und einer live-Dampflokfahrt von Realp nach Gletsch. Mit Bahn-Journalist Beat Moser."
+    },
+    {
         id: "-Sa1Wl-tV1s",
         title: "32. Eidgenössisches Jodlerfest Basel: Jodel, Alphorn & Fahnenschwingen – Die Höhepunkte",
         duration: "",
