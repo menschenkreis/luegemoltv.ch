@@ -35,6 +35,69 @@ const VIDEOS = [
         desc: "100 Jahre Furka-Oberalp-Bahn – ein Jubiläum mit imposanten Dampflokomotiven in Gletsch und Muttbach, stimmungsvollen Festaktivitäten in Realp und einer live-Dampflokfahrt von Realp nach Gletsch. Mit Bahn-Journalist Beat Moser."
     },
     {
+        id: "XBfvb2lH6ac",
+        title: "Engstligenalp Viehmarkt auf 2000 Meter über Meer",
+        duration: "",
+        category: "brauchtum",
+        desc: "Der traditionelle Viehmarkt auf der Engstligenalp – hoch oben auf 2000 Meter über Meer."
+    },
+    {
+        id: "eUBuH2tUGYg",
+        title: "Der Weg der Schweiz ist ein ganz besonderes Erlebnis",
+        duration: "",
+        category: "alp",
+        desc: "Eine Wanderung auf dem Weg der Schweiz – ein ganz besonderes Erlebnis mit Tradition und wunderschöner Natur am Vierwaldstättersee."
+    },
+    {
+        id: "zD1vcEvygow",
+        title: "Alpenmedley zum 1. August",
+        duration: "",
+        category: "brauchtum",
+        desc: "Ein stimmungsvolles Alpenmedley zum 1. August – mit Alphorn, Kühen und echtem Schweizer Brauchtum auf der Engstligenalp."
+    },
+    {
+        id: "dHSwuYrOY9o",
+        title: "Begegnung mit Einheimischen in Saas-Fee",
+        duration: "",
+        category: "alp",
+        desc: "Begegnungen mit Einheimischen im wunderschönen Saastal – mit Steinböcken high above in Saas-Fee und Längfluh."
+    },
+    {
+        id: "r5QyNgiqfD8",
+        title: "Murmeli füttern in Saas-Fee!",
+        duration: "",
+        category: "alp",
+        desc: "Murmeltier-Watching in Saas-Fee – die neugierigen Murmeli lassen sich sogar füttern."
+    },
+    {
+        id: "N5F5yjWkY74",
+        title: "Begegnung mit Evolener Kühen im Wallis",
+        duration: "",
+        category: "alp",
+        desc: "Die imposanten Evolener Kühe im Wallis – eine eindrückliche Begegnung mit einer traditionsreichen Tierrasse."
+    },
+    {
+        id: "n3mvcLmFfvg",
+        title: "Furka-Oberalp-Bahn: Einfahrt in Gletsch",
+        duration: "",
+        category: "brauchtum",
+        desc: "Die Furka-Oberalp-Bahn bei der Einfahrt in Gletsch – Dampflok-Romantik auf der historischen Bergstrecke."
+    },
+    {
+        id: "KjgdqmIcY2k",
+        title: "100 Jahre Furka-Oberalp-Bahn – Dampflok-Jubiläum",
+        duration: "",
+        category: "brauchtum",
+        desc: "Das Jubiläum «100 Jahre Furka-Oberalp-Bahn» – imposante Dampflokomotiven und Tradition in den Schweizer Alpen."
+    },
+    {
+        id: "3G_IlTbaw0c",
+        title: "Alpaufzug Engstligenalp 2026 – Morgens um 05.15 Uhr",
+        duration: "",
+        category: "alpaufzug",
+        desc: "Der Alpaufzug auf die Engstligenalp 2026 am frühen Morgen um 05.15 Uhr – wenn die Kühe bei Sonnenaufgang starten."
+    },
+    {
         id: "-Sa1Wl-tV1s",
         title: "32. Eidgenössisches Jodlerfest Basel: Jodel, Alphorn & Fahnenschwingen – Die Höhepunkte",
         duration: "",
