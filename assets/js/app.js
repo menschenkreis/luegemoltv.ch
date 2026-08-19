@@ -7,6 +7,27 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "nH934Vx7glA",
+        title: "Bodäfahrt 2026 – Eindrücklicher Alpabzug mit 40 Familien & 1000 Kühen vom Klausenpass zum Urnerboden",
+        duration: "8:05",
+        category: "alpabzug",
+        desc: "Die Bodäfahrt 2026: Über 40 Familien und rund 1000 Kühe ziehen vom Klausenpass hinunter zum Urnerboden – ein eindrücklicher Alpabzug."
+    },
+    {
+        id: "1_D9_7TI3nk",
+        title: "Ein Tag, der zählt: Der grosse Viehverkauf auf der Engstligenalp (15.08.2026)",
+        duration: "3:52",
+        category: "brauchtum",
+        desc: "Der grosse Viehverkauf auf der Engstligenalp vom 15. August 2026 – ein Tag, der zählt."
+    },
+    {
+        id: "Z5ah_PWSwfU",
+        title: "Pure Gänsehaut: Die bewegendsten Momente vom Jodlertreffen Schüpfheim",
+        duration: "10:03",
+        category: "jodelfest",
+        desc: "Die bewegendsten Momente vom Jodlertreffen in Schüpfheim – pure Gänsehaut mit Jodeln, Alphorn und traditioneller Tracht."
+    },
+    {
         id: "q9IpWKlAqUs",
         title: "100 Jahre Furka-Oberalp-Bahn – Dampflok-Fahrt durch die Schweizer Alpen",
         duration: "",
