@@ -10,6 +10,7 @@ const VIDEOS = [
         id: "nH934Vx7glA",
         title: "Bodäfahrt 2026 – Eindrücklicher Alpabzug mit 40 Familien & 1000 Kühen vom Klausenpass zum Urnerboden",
         duration: "8:05",
+        views: 10987,
         category: "alpabzug",
         desc: "Die Bodäfahrt 2026: Über 40 Familien und rund 1000 Kühe ziehen vom Klausenpass hinunter zum Urnerboden – ein eindrücklicher Alpabzug."
     },
@@ -38,6 +39,7 @@ const VIDEOS = [
         id: "-Sa1Wl-tV1s",
         title: "32. Eidgenössisches Jodlerfest Basel: Jodel, Alphorn & Fahnenschwingen – Die Höhepunkte",
         duration: "",
+        views: 13994,
         category: "jodelfest",
         desc: "Stimmungsvolle Jodlervorträge, kraftvolle Alphornklänge und die beeindruckende Kunst der Fahnenschwinger – die Höhepunkte des 32. Eidgenössischen Jodlerfests in Basel."
     },
@@ -45,6 +47,7 @@ const VIDEOS = [
         id: "YtO3VItiKko",
         title: "Atemberaubender Alpaufzug Engstligenalp 2026 – Der wohl steilste Alpaufzug der Schweiz",
         duration: "",
+        views: 87049,
         category: "alpaufzug",
         desc: "Steilster Alpaufzug der Schweiz: Jungmannschaft der Familie Kleinjenni im Interview – Engstligenalp 2026."
     },
@@ -52,6 +55,7 @@ const VIDEOS = [
         id: "jB_Id5y2b2c",
         title: "Gotthelf Märit 2026 | Wie früecher – Handwerk, Musik und Emmentaler Köstlichkeiten in Sumiswald",
         duration: "4:59",
+        views: 10615,
         category: "brauchtum",
         desc: "Handwerk, Musik und Emmentaler Köstlichkeiten – der Gotthelf Märit 2026 in Sumiswald wie zu früheren Zeiten."
     },
@@ -59,6 +63,7 @@ const VIDEOS = [
         id: "qmbKNVlmZz8",
         title: "Alpaufzug im Val d'Hérens – Wenn Eringerkühe auf die Alpage d'Arbey ziehen",
         duration: "6:04",
+        views: 11305,
         category: "alpaufzug",
         desc: "Eringerkühe auf dem Weg zur Alpage d'Arbey im wunderschönen Val d'Hérens."
     },
@@ -73,6 +78,7 @@ const VIDEOS = [
         id: "uJPDOp42Hu4",
         title: "Öberefahre in Urnäsch – Alpaufzug im Appenzellerland",
         duration: "5:31",
+        views: 10782,
         category: "alpaufzug",
         desc: "Die Öberefahre in Urnäsch – ein traditionsreicher Alpaufzug im Appenzellerland."
     },
@@ -80,6 +86,7 @@ const VIDEOS = [
         id: "bXv7LiUHJRM",
         title: "Teigwahlen, Feuer & Konfetti – Badener Fasnacht 2026 hautnah!",
         duration: "6:53",
+        views: 12076,
         category: "brauchtum",
         desc: "Die Badener Fasnacht 2026 mit Teigwahlen, Feuer und Konfetti – hautnah miterlebt."
     },
@@ -87,53 +94,64 @@ const VIDEOS = [
         id: "69pH5r6FewU",
         title: "Tschäggättä Lötschental 2026 – Tradition trotzt dem Bergsturz",
         duration: "8:26",
+        views: 15064,
         category: "brauchtum",
         desc: "Die wilden Tschäggättä im Lötschental – ein Brauchtum, das trotz Bergsturz weiterlebt."
     },
     // --- 5 Meistangesehene Videos ---
     {
         id: "Qmi6_tt-a4M",
-        title: "Alpabzug Engstligenalp 2025 – 68.500+ Aufrufe",
+        title: "Alpabzug Engstligenalp 2025",
         duration: "7:28",
+        views: 70460,
         category: "alpabzug",
         desc: "Der wunderschöne Alpabzug auf der Engstligenalp 2025 – das meistgesehene LuegemolTV-Video."
     },
     {
         id: "G0oUDRckGf4",
-        title: "Alpaufzug Engstligenalp 2025 – 33.800+ Aufrufe",
+        title: "Alpaufzug Engstligenalp 2025",
         duration: "",
+        views: 35877,
         category: "alpaufzug",
         desc: "Der Alpaufzug auf die Engstligenalp 2025 – über 33.000 Mal angesehen."
     },
     {
         id: "tS9PWTHDc_A",
-        title: "Alpabzug Flimserstein 2025 – 22.000+ Aufrufe",
+        title: "Alpabzug Flimserstein 2025",
         duration: "12:45",
+        views: 22711,
         category: "alpabzug",
         desc: "Der farbenfrohe Alpabzug am Flimserstein 2025 – ein Publikumsmagnet."
     },
     {
         id: "yXaxwHGVgaY",
-        title: "Chästeilet Justistal 2025 – 20.000+ Aufrufe",
+        title: "Chästeilet Justistal 2025",
         duration: "7:46",
+        views: 20906,
         category: "brauchtum",
         desc: "Der traditionelle Chästeilet im wunderschönen Justistal – über 20.000 Aufrufe."
     },
     {
         id: "XfpmrERRD68",
-        title: "Bodäfahrt 2025 – 14.700+ Aufrufe",
+        title: "Bodäfahrt 2025",
         duration: "",
+        views: 15182,
         category: "alpabzug",
         desc: "Die Bodäfahrt 2025 – ein schweizweit einzigartiges Erlebnis mit über 14.000 Aufrufen."
     },
     {
         id: "LwD5lzJVVUQ",
-        title: "Entlebucher Alpabfahrt, Schüpfheim 2025 – 8.700+ Aufrufe",
+        title: "Entlebucher Alpabfahrt, Schüpfheim 2025",
         duration: "8:59",
         category: "alpabzug",
         desc: "Die wunderschöne Entlebucher Alpabfahrt in Schüpfheim 2025 – ein Farbspektakel."
     }
 ];
+
+// Format view counts Swiss-style (10'500)
+function formatViews(n) {
+    return n.toLocaleString("de-CH");
+}
 
 const CATEGORY_LABELS = {
     alpaufzug: "🐄 Alpaufzug",
@@ -249,6 +267,7 @@ function createVideoCard(video, index) {
             <div class="video-meta">
                 <span class="video-category">${CATEGORY_LABELS[video.category] || video.category}</span>
                 <span>LuegemolTV</span>
+                ${video.views > 10000 ? `<span class="video-views">👁 ${formatViews(video.views)} Aufrufe</span>` : ""}
             </div>
         </div>
     `;
