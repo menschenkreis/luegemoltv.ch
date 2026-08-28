@@ -156,7 +156,7 @@ function formatViews(n) {
 const CATEGORY_LABELS = {
     alpaufzug: "🐄 Alpaufzug",
     alpabzug: "🔔 Alpabzug",
-    jodelfest: "🎵 Jodelfeste",
+    jodelfest: "🎵 Jodlerfeste",
     bekanntmachen: "📣 Brauchtümer bekannt machen",
     bewahren: "🏛️ Traditionen bewahren",
     brauchtum: "🕯️ Brauchtum",
