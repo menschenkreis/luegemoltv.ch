@@ -7,6 +7,14 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "Spcazdo53C4",
+        title: "Gstaad Züglete 2026 – Tausende Zuschauer, prächtige Kühe, eine Legende",
+        duration: "8:26",
+        views: 4666,
+        category: "alpabzug",
+        desc: "Die Gstaad Züglete 2026: einer der schönsten und traditionsreichsten Alpabzüge der Schweiz. Von den Alpweiden im Turbach bis in die Festhütte nach Gstaad – mit prächtigem Blumenschmuck, tausenden Zuschauern und Gründer Johann von Grünigen."
+    },
+    {
         id: "nH934Vx7glA",
         title: "Bodäfahrt 2026 – Eindrücklicher Alpabzug mit 40 Familien & 1000 Kühen vom Klausenpass zum Urnerboden",
         duration: "8:05",
