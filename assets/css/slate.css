@@ -2088,3 +2088,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
     color: var(--color-gold, #d9b45b);
     white-space: nowrap;
 }
+.video-views.silver {
+    color: #c0c4cc;
+}
+.video-views.bronze {
+    color: #b87333;
+}

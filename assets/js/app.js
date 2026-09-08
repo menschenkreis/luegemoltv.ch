@@ -280,7 +280,7 @@ function createVideoCard(video, index) {
             <div class="video-meta">
                 <span class="video-category">${CATEGORY_LABELS[video.category] || video.category}</span>
                 <span>LuegemolTV</span>
-                ${video.views > 10000 ? `<span class="video-views">👁 ${formatViews(video.views)} Aufrufe</span>` : ""}
+                ${video.views ? `<span class="video-views${video.views >= 10000 ? "" : video.views >= 5000 ? " silver" : " bronze"}">👁 ${formatViews(video.views)} Aufrufe</span>` : ""}
             </div>
         </div>
     `;
