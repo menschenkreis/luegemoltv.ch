@@ -41,7 +41,7 @@ const VIDEOS = [
     {
         id: "q9IpWKlAqUs",
         title: "100 Jahre Furka-Oberalp-Bahn – Dampflok-Fahrt durch die Schweizer Alpen",
-        duration: "",
+        duration: "7:34",
         views: 4583,
         category: "brauchtum",
         desc: "100 Jahre Furka-Oberalp-Bahn – ein Jubiläum mit imposanten Dampflokomotiven in Gletsch und Muttbach, stimmungsvollen Festaktivitäten in Realp und einer live-Dampflokfahrt von Realp nach Gletsch. Mit Bahn-Journalist Beat Moser."
@@ -49,7 +49,7 @@ const VIDEOS = [
                                         {
         id: "-Sa1Wl-tV1s",
         title: "32. Eidgenössisches Jodlerfest Basel: Jodel, Alphorn & Fahnenschwingen – Die Höhepunkte",
-        duration: "",
+        duration: "9:36",
         views: 14425,
         category: "jodelfest",
         desc: "Stimmungsvolle Jodlervorträge, kraftvolle Alphornklänge und die beeindruckende Kunst der Fahnenschwinger – die Höhepunkte des 32. Eidgenössischen Jodlerfests in Basel."
@@ -57,7 +57,7 @@ const VIDEOS = [
     {
         id: "YtO3VItiKko",
         title: "Atemberaubender Alpaufzug Engstligenalp 2026 – Der wohl steilste Alpaufzug der Schweiz",
-        duration: "",
+        duration: "8:31",
         views: 89143,
         category: "alpaufzug",
         desc: "Steilster Alpaufzug der Schweiz: Jungmannschaft der Familie Kleinjenni im Interview – Engstligenalp 2026."
@@ -122,7 +122,7 @@ const VIDEOS = [
     {
         id: "G0oUDRckGf4",
         title: "Alpaufzug Engstligenalp 2025",
-        duration: "",
+        duration: "6:40",
         views: 36173,
         category: "alpaufzug",
         desc: "Der Alpaufzug auf die Engstligenalp 2025 – über 33.000 Mal angesehen."
@@ -146,7 +146,7 @@ const VIDEOS = [
     {
         id: "XfpmrERRD68",
         title: "Bodäfahrt 2025",
-        duration: "",
+        duration: "7:19",
         views: 15347,
         category: "alpabzug",
         desc: "Die Bodäfahrt 2025 – ein schweizweit einzigartiges Erlebnis mit über 14.000 Aufrufen."
