@@ -7,6 +7,22 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "hgcNqCteqN4",
+        title: "Alpabzug Sefinen 2026 – Geschmückte Kühe ziehen durch Interlaken nach Unterseen",
+        duration: "6:55",
+        views: 35,
+        category: "alpabzug",
+        desc: "Der Alpabzug Sefinen 2026: festlich geschmückte Kühe ziehen von Wilderswil durch Interlaken bis nach Unterseen – begleitet von Alphornklängen, Kuhglocken und strahlenden Gesichtern."
+    },
+    {
+        id: "7ir8rh8LUMQ",
+        title: "Alpabzug Engstligenalp 2026 – Eindrücklicher Alpzug im Berner Oberland",
+        duration: "9:06",
+        views: 12955,
+        category: "alpabzug",
+        desc: "Der Alpabzug Engstligenalp 2026 – einer der steilsten und spektakulärsten Alpabzüge der Schweiz. LuegemolTV begleitet Sennen und Senten auf dem anspruchsvollen Abstieg ins Tal."
+    },
+    {
         id: "Spcazdo53C4",
         title: "Gstaad Züglete 2026 – Tausende Zuschauer, prächtige Kühe, eine Legende",
         duration: "8:26",
