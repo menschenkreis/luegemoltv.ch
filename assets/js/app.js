@@ -10,7 +10,7 @@ const VIDEOS = [
         id: "hgcNqCteqN4",
         title: "Alpabzug Sefinen 2026 – Geschmückte Kühe ziehen durch Interlaken nach Unterseen",
         duration: "6:55",
-        views: 10647,
+        views: 10665,
         category: "alpabzug",
         desc: "Der Alpabzug Sefinen 2026: festlich geschmückte Kühe ziehen von Wilderswil durch Interlaken bis nach Unterseen – begleitet von Alphornklängen, Kuhglocken und strahlenden Gesichtern."
     },
@@ -18,7 +18,7 @@ const VIDEOS = [
         id: "7ir8rh8LUMQ",
         title: "Alpabzug Engstligenalp 2026 – Eindrücklicher Alpzug im Berner Oberland",
         duration: "9:06",
-        views: 26580,
+        views: 26614,
         category: "alpabzug",
         desc: "Der Alpabzug Engstligenalp 2026 – einer der steilsten und spektakulärsten Alpabzüge der Schweiz. LuegemolTV begleitet Sennen und Senten auf dem anspruchsvollen Abstieg ins Tal."
     },
@@ -26,7 +26,7 @@ const VIDEOS = [
         id: "Spcazdo53C4",
         title: "Gstaad Züglete 2026 – Tausende Zuschauer, prächtige Kühe, eine Legende",
         duration: "8:26",
-        views: 15256,
+        views: 15246,
         category: "alpabzug",
         desc: "Die Gstaad Züglete 2026: einer der schönsten und traditionsreichsten Alpabzüge der Schweiz. Von den Alpweiden im Turbach bis in die Festhütte nach Gstaad – mit prächtigem Blumenschmuck, tausenden Zuschauern und Gründer Johann von Grünigen."
     },
@@ -34,7 +34,7 @@ const VIDEOS = [
         id: "nH934Vx7glA",
         title: "Bodäfahrt 2026 – Eindrücklicher Alpabzug mit 40 Familien & 1000 Kühen vom Klausenpass zum Urnerboden",
         duration: "8:05",
-        views: 41992,
+        views: 41997,
         category: "alpabzug",
         desc: "Die Bodäfahrt 2026: Über 40 Familien und rund 1000 Kühe ziehen vom Klausenpass hinunter zum Urnerboden – ein eindrücklicher Alpabzug."
     },
@@ -42,7 +42,7 @@ const VIDEOS = [
         id: "1_D9_7TI3nk",
         title: "Ein Tag, der zählt: Der grosse Viehverkauf auf der Engstligenalp (15.08.2026)",
         duration: "3:52",
-        views: 10888,
+        views: 10889,
         category: "brauchtum",
         desc: "Der grosse Viehverkauf auf der Engstligenalp vom 15. August 2026 – ein Tag, der zählt."
     },
@@ -50,7 +50,7 @@ const VIDEOS = [
         id: "Z5ah_PWSwfU",
         title: "Pure Gänsehaut: Die bewegendsten Momente vom Jodlertreffen Schüpfheim",
         duration: "10:03",
-        views: 17244,
+        views: 17240,
         category: "jodelfest",
         desc: "Die bewegendsten Momente vom Jodlertreffen in Schüpfheim – pure Gänsehaut mit Jodeln, Alphorn und traditioneller Tracht."
     },
@@ -58,7 +58,7 @@ const VIDEOS = [
         id: "q9IpWKlAqUs",
         title: "100 Jahre Furka-Oberalp-Bahn – Dampflok-Fahrt durch die Schweizer Alpen",
         duration: "7:34",
-        views: 4702,
+        views: 4703,
         category: "brauchtum",
         desc: "100 Jahre Furka-Oberalp-Bahn – ein Jubiläum mit imposanten Dampflokomotiven in Gletsch und Muttbach, stimmungsvollen Festaktivitäten in Realp und einer live-Dampflokfahrt von Realp nach Gletsch. Mit Bahn-Journalist Beat Moser."
     },
@@ -90,7 +90,7 @@ const VIDEOS = [
         id: "qmbKNVlmZz8",
         title: "Alpaufzug im Val d'Hérens – Wenn Eringerkühe auf die Alpage d'Arbey ziehen",
         duration: "6:04",
-        views: 12349,
+        views: 12350,
         category: "alpaufzug",
         desc: "Eringerkühe auf dem Weg zur Alpage d'Arbey im wunderschönen Val d'Hérens."
     },
@@ -155,7 +155,7 @@ const VIDEOS = [
         id: "yXaxwHGVgaY",
         title: "Chästeilet Justistal 2025",
         duration: "7:46",
-        views: 21729,
+        views: 21731,
         category: "brauchtum",
         desc: "Der traditionelle Chästeilet im wunderschönen Justistal – über 20.000 Aufrufe."
     },
@@ -171,7 +171,7 @@ const VIDEOS = [
         id: "LwD5lzJVVUQ",
         title: "Entlebucher Alpabfahrt, Schüpfheim 2025",
         duration: "8:59",
-        views: 10258,
+        views: 10256,
         category: "alpabzug",
         desc: "Die wunderschöne Entlebucher Alpabfahrt in Schüpfheim 2025 – ein Farbspektakel."
     }
