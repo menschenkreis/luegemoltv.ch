@@ -10,7 +10,7 @@ const VIDEOS = [
         id: "hgcNqCteqN4",
         title: "Alpabzug Sefinen 2026 – Geschmückte Kühe ziehen durch Interlaken nach Unterseen",
         duration: "6:55",
-        views: 431,
+        views: 10647,
         category: "alpabzug",
         desc: "Der Alpabzug Sefinen 2026: festlich geschmückte Kühe ziehen von Wilderswil durch Interlaken bis nach Unterseen – begleitet von Alphornklängen, Kuhglocken und strahlenden Gesichtern."
     },
@@ -18,7 +18,7 @@ const VIDEOS = [
         id: "7ir8rh8LUMQ",
         title: "Alpabzug Engstligenalp 2026 – Eindrücklicher Alpzug im Berner Oberland",
         duration: "9:06",
-        views: 14860,
+        views: 26580,
         category: "alpabzug",
         desc: "Der Alpabzug Engstligenalp 2026 – einer der steilsten und spektakulärsten Alpabzüge der Schweiz. LuegemolTV begleitet Sennen und Senten auf dem anspruchsvollen Abstieg ins Tal."
     },
@@ -26,7 +26,7 @@ const VIDEOS = [
         id: "Spcazdo53C4",
         title: "Gstaad Züglete 2026 – Tausende Zuschauer, prächtige Kühe, eine Legende",
         duration: "8:26",
-        views: 14558,
+        views: 15256,
         category: "alpabzug",
         desc: "Die Gstaad Züglete 2026: einer der schönsten und traditionsreichsten Alpabzüge der Schweiz. Von den Alpweiden im Turbach bis in die Festhütte nach Gstaad – mit prächtigem Blumenschmuck, tausenden Zuschauern und Gründer Johann von Grünigen."
     },
@@ -34,7 +34,7 @@ const VIDEOS = [
         id: "nH934Vx7glA",
         title: "Bodäfahrt 2026 – Eindrücklicher Alpabzug mit 40 Familien & 1000 Kühen vom Klausenpass zum Urnerboden",
         duration: "8:05",
-        views: 41303,
+        views: 41992,
         category: "alpabzug",
         desc: "Die Bodäfahrt 2026: Über 40 Familien und rund 1000 Kühe ziehen vom Klausenpass hinunter zum Urnerboden – ein eindrücklicher Alpabzug."
     },
@@ -42,7 +42,7 @@ const VIDEOS = [
         id: "1_D9_7TI3nk",
         title: "Ein Tag, der zählt: Der grosse Viehverkauf auf der Engstligenalp (15.08.2026)",
         duration: "3:52",
-        views: 10795,
+        views: 10888,
         category: "brauchtum",
         desc: "Der grosse Viehverkauf auf der Engstligenalp vom 15. August 2026 – ein Tag, der zählt."
     },
@@ -50,7 +50,7 @@ const VIDEOS = [
         id: "Z5ah_PWSwfU",
         title: "Pure Gänsehaut: Die bewegendsten Momente vom Jodlertreffen Schüpfheim",
         duration: "10:03",
-        views: 16864,
+        views: 17244,
         category: "jodelfest",
         desc: "Die bewegendsten Momente vom Jodlertreffen in Schüpfheim – pure Gänsehaut mit Jodeln, Alphorn und traditioneller Tracht."
     },
@@ -58,7 +58,7 @@ const VIDEOS = [
         id: "q9IpWKlAqUs",
         title: "100 Jahre Furka-Oberalp-Bahn – Dampflok-Fahrt durch die Schweizer Alpen",
         duration: "7:34",
-        views: 4667,
+        views: 4702,
         category: "brauchtum",
         desc: "100 Jahre Furka-Oberalp-Bahn – ein Jubiläum mit imposanten Dampflokomotiven in Gletsch und Muttbach, stimmungsvollen Festaktivitäten in Realp und einer live-Dampflokfahrt von Realp nach Gletsch. Mit Bahn-Journalist Beat Moser."
     },
@@ -66,7 +66,7 @@ const VIDEOS = [
         id: "-Sa1Wl-tV1s",
         title: "32. Eidgenössisches Jodlerfest Basel: Jodel, Alphorn & Fahnenschwingen – Die Höhepunkte",
         duration: "9:36",
-        views: 14507,
+        views: 14537,
         category: "jodelfest",
         desc: "Stimmungsvolle Jodlervorträge, kraftvolle Alphornklänge und die beeindruckende Kunst der Fahnenschwinger – die Höhepunkte des 32. Eidgenössischen Jodlerfests in Basel."
     },
@@ -74,7 +74,7 @@ const VIDEOS = [
         id: "YtO3VItiKko",
         title: "Atemberaubender Alpaufzug Engstligenalp 2026 – Der wohl steilste Alpaufzug der Schweiz",
         duration: "8:31",
-        views: 90044,
+        views: 90615,
         category: "alpaufzug",
         desc: "Steilster Alpaufzug der Schweiz: Jungmannschaft der Familie Kleinjenni im Interview – Engstligenalp 2026."
     },
@@ -82,7 +82,7 @@ const VIDEOS = [
         id: "jB_Id5y2b2c",
         title: "Gotthelf Märit 2026 | Wie früecher – Handwerk, Musik und Emmentaler Köstlichkeiten in Sumiswald",
         duration: "4:59",
-        views: 10763,
+        views: 10790,
         category: "brauchtum",
         desc: "Handwerk, Musik und Emmentaler Köstlichkeiten – der Gotthelf Märit 2026 in Sumiswald wie zu früheren Zeiten."
     },
@@ -90,7 +90,7 @@ const VIDEOS = [
         id: "qmbKNVlmZz8",
         title: "Alpaufzug im Val d'Hérens – Wenn Eringerkühe auf die Alpage d'Arbey ziehen",
         duration: "6:04",
-        views: 12293,
+        views: 12349,
         category: "alpaufzug",
         desc: "Eringerkühe auf dem Weg zur Alpage d'Arbey im wunderschönen Val d'Hérens."
     },
@@ -98,7 +98,7 @@ const VIDEOS = [
         id: "u5A9KaIO4Tk",
         title: "Alpfahrt Appenzellerland 2026 – Mehrere Alpaufzug zur Schwägalp und ins Alpsteingebiet",
         duration: "4:09",
-        views: 6609,
+        views: 6696,
         category: "alpaufzug",
         desc: "Mehrere traditionelle Alpaufzug im Appenzellerland zur Schwägalp und ins Alpsteingebiet."
     },
@@ -106,7 +106,7 @@ const VIDEOS = [
         id: "uJPDOp42Hu4",
         title: "Öberefahre in Urnäsch – Alpaufzug im Appenzellerland",
         duration: "5:31",
-        views: 11717,
+        views: 11811,
         category: "alpaufzug",
         desc: "Die Öberefahre in Urnäsch – ein traditionsreicher Alpaufzug im Appenzellerland."
     },
@@ -114,7 +114,7 @@ const VIDEOS = [
         id: "bXv7LiUHJRM",
         title: "Teigwahlen, Feuer & Konfetti – Badener Fasnacht 2026 hautnah!",
         duration: "6:53",
-        views: 12098,
+        views: 12103,
         category: "brauchtum",
         desc: "Die Badener Fasnacht 2026 mit Teigwahlen, Feuer und Konfetti – hautnah miterlebt."
     },
@@ -122,7 +122,7 @@ const VIDEOS = [
         id: "69pH5r6FewU",
         title: "Tschäggättä Lötschental 2026 – Tradition trotzt dem Bergsturz",
         duration: "8:26",
-        views: 15184,
+        views: 15202,
         category: "brauchtum",
         desc: "Die wilden Tschäggättä im Lötschental – ein Brauchtum, das trotz Bergsturz weiterlebt."
     },
@@ -131,7 +131,7 @@ const VIDEOS = [
         id: "Qmi6_tt-a4M",
         title: "Alpabzug Engstligenalp 2025",
         duration: "7:28",
-        views: 71718,
+        views: 71830,
         category: "alpabzug",
         desc: "Der wunderschöne Alpabzug auf der Engstligenalp 2025 – das meistgesehene LuegemolTV-Video."
     },
@@ -139,7 +139,7 @@ const VIDEOS = [
         id: "G0oUDRckGf4",
         title: "Alpaufzug Engstligenalp 2025",
         duration: "6:40",
-        views: 36286,
+        views: 36353,
         category: "alpaufzug",
         desc: "Der Alpaufzug auf die Engstligenalp 2025 – über 33.000 Mal angesehen."
     },
@@ -147,7 +147,7 @@ const VIDEOS = [
         id: "tS9PWTHDc_A",
         title: "Alpabzug Flimserstein 2025",
         duration: "12:45",
-        views: 23514,
+        views: 23643,
         category: "alpabzug",
         desc: "Der farbenfrohe Alpabzug am Flimserstein 2025 – ein Publikumsmagnet."
     },
@@ -155,7 +155,7 @@ const VIDEOS = [
         id: "yXaxwHGVgaY",
         title: "Chästeilet Justistal 2025",
         duration: "7:46",
-        views: 21640,
+        views: 21729,
         category: "brauchtum",
         desc: "Der traditionelle Chästeilet im wunderschönen Justistal – über 20.000 Aufrufe."
     },
@@ -163,7 +163,7 @@ const VIDEOS = [
         id: "XfpmrERRD68",
         title: "Bodäfahrt 2025",
         duration: "7:19",
-        views: 15413,
+        views: 15444,
         category: "alpabzug",
         desc: "Die Bodäfahrt 2025 – ein schweizweit einzigartiges Erlebnis mit über 14.000 Aufrufen."
     },
@@ -171,7 +171,7 @@ const VIDEOS = [
         id: "LwD5lzJVVUQ",
         title: "Entlebucher Alpabfahrt, Schüpfheim 2025",
         duration: "8:59",
-        views: 10185,
+        views: 10258,
         category: "alpabzug",
         desc: "Die wunderschöne Entlebucher Alpabfahrt in Schüpfheim 2025 – ein Farbspektakel."
     }
