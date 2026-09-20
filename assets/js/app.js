@@ -7,6 +7,14 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "QVkzyhmQMpk",
+        title: "Chästeilet Justistal 2026 – Alpabzug, Jodel und Schweizer Volksmusik live erlebt",
+        duration: "9:25",
+        views: 2735,
+        category: "brauchtum",
+        desc: "Die Chästeilet im Justistal: Der über den Alpsommer gereifte Bergkäse wird feierlich unter den Bauern aufgeteilt – ein Brauch mit jahrhundertealter Geschichte, begleitet von Jodeln und Volksmusik."
+    },
+    {
         id: "hgcNqCteqN4",
         title: "Alpabzug Sefinen 2026 – Geschmückte Kühe ziehen durch Interlaken nach Unterseen",
         duration: "6:55",
