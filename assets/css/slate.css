@@ -2094,3 +2094,13 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .video-views.bronze {
     color: #b87333;
 }
+
+/* Total views line under video section title */
+.total-views {
+    color: var(--color-gold, #d9b45b);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 8px 0 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+}

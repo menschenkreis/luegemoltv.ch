@@ -7,6 +7,14 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "8cuaiX484dQ",
+        title: "Alpabfahrt Mels 2026 – Über 1000 Tiere am letzten Tag | Die grösste Alpabfahrt der Schweiz",
+        duration: "8:32",
+        views: 3039,
+        category: "alpabzug",
+        desc: "Die Alpabfahrt Mels ist die grösste Alpabfahrt der Schweiz: Über 2800 Tiere zogen verteilt auf sieben Tagen von den Alpen ins Tal – am letzten und grössten Abfahrtstag allein über 1000 Tiere."
+    },
+    {
         id: "QVkzyhmQMpk",
         title: "Chästeilet Justistal 2026 – Alpabzug, Jodel und Schweizer Volksmusik live erlebt",
         duration: "9:25",
@@ -257,7 +265,15 @@ function initNavbar() {
 }
 
 // ---- Video Grid ----
+function updateTotalViews() {
+    const total = VIDEOS.reduce((sum, v) => sum + (v.views || 0), 0);
+    document.querySelectorAll(".total-views-count").forEach(el => {
+        el.textContent = formatViews(total);
+    });
+}
+
 function initVideoGrid() {
+    updateTotalViews();
     const grid = document.getElementById("videoGrid");
     renderVideos(VIDEOS, grid);
 }
