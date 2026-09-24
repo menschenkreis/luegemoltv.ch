@@ -1,9 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://luegemoltv.ch/</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/8cuaiX484dQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Alpabfahrt Mels 2026 – Über 1000 Tiere am letzten Tag | Die grösste Alpabfahrt der Schweiz</video:title>
+      <video:description>Die Alpabfahrt Mels ist die grösste Alpabfahrt der Schweiz: Über 2800 Tiere zogen verteilt auf sieben Tagen von den Alpen ins Tal – am letzten und grössten Abfahrtstag allein über 1000 Tiere.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/8cuaiX484dQ</video:player_loc>
+      <video:duration>512</video:duration>
+      <video:view_count>3039</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/QVkzyhmQMpk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Chästeilet Justistal 2026 – Alpabzug, Jodel und Schweizer Volksmusik live erlebt</video:title>
+      <video:description>Die Chästeilet im Justistal: Der über den Alpsommer gereifte Bergkäse wird feierlich unter den Bauern aufgeteilt – ein Brauch mit jahrhundertealter Geschichte, begleitet von Jodeln und Volksmusik.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/QVkzyhmQMpk</video:player_loc>
+      <video:duration>565</video:duration>
+      <video:view_count>16492</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/hgcNqCteqN4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Alpabzug Sefinen 2026 – Geschmückte Kühe ziehen durch Interlaken nach Unterseen</video:title>
+      <video:description>Der Alpabzug Sefinen 2026: festlich geschmückte Kühe ziehen von Wilderswil durch Interlaken bis nach Unterseen – begleitet von Alphornklängen, Kuhglocken und strahlenden Gesichtern.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/hgcNqCteqN4</video:player_loc>
+      <video:duration>415</video:duration>
+      <video:view_count>19706</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/7ir8rh8LUMQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Alpabzug Engstligenalp 2026 – Eindrücklicher Alpzug im Berner Oberland</video:title>
+      <video:description>Der Alpabzug Engstligenalp 2026 – einer der steilsten und spektakulärsten Alpabzüge der Schweiz. LuegemolTV begleitet Sennen und Senten auf dem anspruchsvollen Abstieg ins Tal.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/7ir8rh8LUMQ</video:player_loc>
+      <video:duration>546</video:duration>
+      <video:view_count>39394</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Spcazdo53C4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Gstaad Züglete 2026 – Tausende Zuschauer, prächtige Kühe, eine Legende</video:title>
+      <video:description>Die Gstaad Züglete 2026: einer der schönsten und traditionsreichsten Alpabzüge der Schweiz. Von den Alpweiden im Turbach bis in die Festhütte nach Gstaad – mit prächtigem Blumenschmuck, tausenden Zuschauern und Gründer Johann von Grünigen.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Spcazdo53C4</video:player_loc>
+      <video:duration>506</video:duration>
+      <video:view_count>17149</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/nH934Vx7glA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Bodäfahrt 2026 – Eindrücklicher Alpabzug mit 40 Familien &amp; 1000 Kühen vom Klausenpass zum Urnerboden</video:title>
+      <video:description>Die Bodäfahrt 2026: Über 40 Familien und rund 1000 Kühe ziehen vom Klausenpass hinunter zum Urnerboden – ein eindrücklicher Alpabzug.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/nH934Vx7glA</video:player_loc>
+      <video:duration>485</video:duration>
+      <video:view_count>43541</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1_D9_7TI3nk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Ein Tag, der zählt: Der grosse Viehverkauf auf der Engstligenalp (15.08.2026)</video:title>
+      <video:description>Der grosse Viehverkauf auf der Engstligenalp vom 15. August 2026 – ein Tag, der zählt.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/1_D9_7TI3nk</video:player_loc>
+      <video:duration>232</video:duration>
+      <video:view_count>11052</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Z5ah_PWSwfU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Pure Gänsehaut: Die bewegendsten Momente vom Jodlertreffen Schüpfheim</video:title>
+      <video:description>Die bewegendsten Momente vom Jodlertreffen in Schüpfheim – pure Gänsehaut mit Jodeln, Alphorn und traditioneller Tracht.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Z5ah_PWSwfU</video:player_loc>
+      <video:duration>603</video:duration>
+      <video:view_count>18326</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/q9IpWKlAqUs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>100 Jahre Furka-Oberalp-Bahn – Dampflok-Fahrt durch die Schweizer Alpen</video:title>
+      <video:description>100 Jahre Furka-Oberalp-Bahn – ein Jubiläum mit imposanten Dampflokomotiven in Gletsch und Muttbach, stimmungsvollen Festaktivitäten in Realp und einer live-Dampflokfahrt von Realp nach Gletsch. Mit Bahn-Journalist Beat Moser.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/q9IpWKlAqUs</video:player_loc>
+      <video:duration>454</video:duration>
+      <video:view_count>4799</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/-Sa1Wl-tV1s/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>32. Eidgenössisches Jodlerfest Basel: Jodel, Alphorn &amp; Fahnenschwingen – Die Höhepunkte</video:title>
+      <video:description>Stimmungsvolle Jodlervorträge, kraftvolle Alphornklänge und die beeindruckende Kunst der Fahnenschwinger – die Höhepunkte des 32. Eidgenössischen Jodlerfests in Basel.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/-Sa1Wl-tV1s</video:player_loc>
+      <video:duration>576</video:duration>
+      <video:view_count>14692</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/YtO3VItiKko/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Atemberaubender Alpaufzug Engstligenalp 2026 – Der wohl steilste Alpaufzug der Schweiz</video:title>
+      <video:description>Steilster Alpaufzug der Schweiz: Jungmannschaft der Familie Kleinjenni im Interview – Engstligenalp 2026.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/YtO3VItiKko</video:player_loc>
+      <video:duration>511</video:duration>
+      <video:view_count>92514</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/jB_Id5y2b2c/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Gotthelf Märit 2026 | Wie früecher – Handwerk, Musik und Emmentaler Köstlichkeiten in Sumiswald</video:title>
+      <video:description>Handwerk, Musik und Emmentaler Köstlichkeiten – der Gotthelf Märit 2026 in Sumiswald wie zu früheren Zeiten.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/jB_Id5y2b2c</video:player_loc>
+      <video:duration>299</video:duration>
+      <video:view_count>10834</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/qmbKNVlmZz8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Alpaufzug im Val d'Hérens – Wenn Eringerkühe auf die Alpage d'Arbey ziehen</video:title>
+      <video:description>Eringerkühe auf dem Weg zur Alpage d'Arbey im wunderschönen Val d'Hérens.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/qmbKNVlmZz8</video:player_loc>
+      <video:duration>364</video:duration>
+      <video:view_count>12635</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/u5A9KaIO4Tk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Alpfahrt Appenzellerland 2026 – Mehrere Alpaufzug zur Schwägalp und ins Alpsteingebiet</video:title>
+      <video:description>Mehrere traditionelle Alpaufzug im Appenzellerland zur Schwägalp und ins Alpsteingebiet.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/u5A9KaIO4Tk</video:player_loc>
+      <video:duration>249</video:duration>
+      <video:view_count>6942</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/uJPDOp42Hu4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Öberefahre in Urnäsch – Alpaufzug im Appenzellerland</video:title>
+      <video:description>Die Öberefahre in Urnäsch – ein traditionsreicher Alpaufzug im Appenzellerland.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/uJPDOp42Hu4</video:player_loc>
+      <video:duration>331</video:duration>
+      <video:view_count>12129</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/bXv7LiUHJRM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Teigwahlen, Feuer &amp; Konfetti – Badener Fasnacht 2026 hautnah!</video:title>
+      <video:description>Die Badener Fasnacht 2026 mit Teigwahlen, Feuer und Konfetti – hautnah miterlebt.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/bXv7LiUHJRM</video:player_loc>
+      <video:duration>413</video:duration>
+      <video:view_count>12105</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/69pH5r6FewU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Tschäggättä Lötschental 2026 – Tradition trotzt dem Bergsturz</video:title>
+      <video:description>Die wilden Tschäggättä im Lötschental – ein Brauchtum, das trotz Bergsturz weiterlebt.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/69pH5r6FewU</video:player_loc>
+      <video:duration>506</video:duration>
+      <video:view_count>15245</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Qmi6_tt-a4M/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Alpabzug Engstligenalp 2025</video:title>
+      <video:description>Der wunderschöne Alpabzug auf der Engstligenalp 2025 – das meistgesehene LuegemolTV-Video.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Qmi6_tt-a4M</video:player_loc>
+      <video:duration>448</video:duration>
+      <video:view_count>72315</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/G0oUDRckGf4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Alpaufzug Engstligenalp 2025</video:title>
+      <video:description>Der Alpaufzug auf die Engstligenalp 2025 – über 33.000 Mal angesehen.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/G0oUDRckGf4</video:player_loc>
+      <video:duration>400</video:duration>
+      <video:view_count>36486</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tS9PWTHDc_A/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Alpabzug Flimserstein 2025</video:title>
+      <video:description>Der farbenfrohe Alpabzug am Flimserstein 2025 – ein Publikumsmagnet.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/tS9PWTHDc_A</video:player_loc>
+      <video:duration>765</video:duration>
+      <video:view_count>24148</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/yXaxwHGVgaY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Chästeilet Justistal 2025</video:title>
+      <video:description>Der traditionelle Chästeilet im wunderschönen Justistal – über 20.000 Aufrufe.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/yXaxwHGVgaY</video:player_loc>
+      <video:duration>466</video:duration>
+      <video:view_count>22240</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/XfpmrERRD68/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Bodäfahrt 2025</video:title>
+      <video:description>Die Bodäfahrt 2025 – ein schweizweit einzigartiges Erlebnis mit über 14.000 Aufrufen.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/XfpmrERRD68</video:player_loc>
+      <video:duration>439</video:duration>
+      <video:view_count>15478</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://luegemoltv.ch/#videos</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/LwD5lzJVVUQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Entlebucher Alpabfahrt, Schüpfheim 2025</video:title>
+      <video:description>Die wunderschöne Entlebucher Alpabfahrt in Schüpfheim 2025 – ein Farbspektakel.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/LwD5lzJVVUQ</video:player_loc>
+      <video:duration>539</video:duration>
+      <video:view_count>10525</video:view_count>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
   </url>
 </urlset>
