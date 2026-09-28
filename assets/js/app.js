@@ -7,6 +7,14 @@
 const VIDEOS = [
     // --- 5 Neueste Videos ---
     {
+        id: "c-RmAJtNd7M",
+        title: "Entlebucher Alpabfahrt 2026 – Trycheln, Trachten und Tränen der Freude in Schüpfheim",
+        duration: "8:42",
+        views: 3440,
+        category: "alpabzug",
+        desc: "Die 21. Entlebucher Alpabfahrt in Schüpfheim: geschmückte Kühe, klingende Trycheln, farbenfrohe Trachten und tausende Zuschauer feiern das Ende des Alpsommers – LuegemolTV war mittendrin."
+    },
+    {
         id: "8cuaiX484dQ",
         title: "Alpabfahrt Mels 2026 – Über 1000 Tiere am letzten Tag | Die grösste Alpabfahrt der Schweiz",
         duration: "8:32",
@@ -265,7 +273,7 @@ function initNavbar() {
 }
 
 // ---- Video Grid ----
-const CHANNEL_TOTAL_VIEWS = 2711566; // Gesamt-Aufrufe des YouTube-Kanals @LuegemolTV (Stand 23.09.2026)
+const CHANNEL_TOTAL_VIEWS = 2741085; // Gesamt-Aufrufe des YouTube-Kanals @LuegemolTV (Stand 28.09.2026)
 
 function updateTotalViews() {
     document.querySelectorAll(".total-views-count").forEach(el => {
