@@ -10,7 +10,7 @@ const VIDEOS = [
         id: "c-RmAJtNd7M",
         title: "Entlebucher Alpabfahrt 2026 – Trycheln, Trachten und Tränen der Freude in Schüpfheim",
         duration: "8:42",
-        views: 9193,
+        views: 10183,
         category: "alpabzug",
         desc: "Die 21. Entlebucher Alpabfahrt in Schüpfheim: geschmückte Kühe, klingende Trycheln, farbenfrohe Trachten und tausende Zuschauer feiern das Ende des Alpsommers – LuegemolTV war mittendrin."
     },
@@ -18,7 +18,7 @@ const VIDEOS = [
         id: "8cuaiX484dQ",
         title: "Alpabfahrt Mels 2026 – Über 1000 Tiere am letzten Tag | Die grösste Alpabfahrt der Schweiz",
         duration: "8:32",
-        views: 8891,
+        views: 9265,
         category: "alpabzug",
         desc: "Die Alpabfahrt Mels ist die grösste Alpabfahrt der Schweiz: Über 2800 Tiere zogen verteilt auf sieben Tagen von den Alpen ins Tal – am letzten und grössten Abfahrtstag allein über 1000 Tiere."
     },
@@ -26,7 +26,7 @@ const VIDEOS = [
         id: "QVkzyhmQMpk",
         title: "Chästeilet Justistal 2026 – Alpabzug, Jodel und Schweizer Volksmusik live erlebt",
         duration: "9:25",
-        views: 34276,
+        views: 35067,
         category: "brauchtum",
         desc: "Die Chästeilet im Justistal: Der über den Alpsommer gereifte Bergkäse wird feierlich unter den Bauern aufgeteilt – ein Brauch mit jahrhundertealter Geschichte, begleitet von Jodeln und Volksmusik."
     },
@@ -34,7 +34,7 @@ const VIDEOS = [
         id: "hgcNqCteqN4",
         title: "Alpabzug Sefinen 2026 – Geschmückte Kühe ziehen durch Interlaken nach Unterseen",
         duration: "6:55",
-        views: 21570,
+        views: 22100,
         category: "alpabzug",
         desc: "Der Alpabzug Sefinen 2026: festlich geschmückte Kühe ziehen von Wilderswil durch Interlaken bis nach Unterseen – begleitet von Alphornklängen, Kuhglocken und strahlenden Gesichtern."
     },
@@ -42,7 +42,7 @@ const VIDEOS = [
         id: "7ir8rh8LUMQ",
         title: "Alpabzug Engstligenalp 2026 – Eindrücklicher Alpzug im Berner Oberland",
         duration: "9:06",
-        views: 42465,
+        views: 42949,
         category: "alpabzug",
         desc: "Der Alpabzug Engstligenalp 2026 – einer der steilsten und spektakulärsten Alpabzüge der Schweiz. LuegemolTV begleitet Sennen und Senten auf dem anspruchsvollen Abstieg ins Tal."
     },
@@ -50,7 +50,7 @@ const VIDEOS = [
         id: "Spcazdo53C4",
         title: "Gstaad Züglete 2026 – Tausende Zuschauer, prächtige Kühe, eine Legende",
         duration: "8:26",
-        views: 18317,
+        views: 18651,
         category: "alpabzug",
         desc: "Die Gstaad Züglete 2026: einer der schönsten und traditionsreichsten Alpabzüge der Schweiz. Von den Alpweiden im Turbach bis in die Festhütte nach Gstaad – mit prächtigem Blumenschmuck, tausenden Zuschauern und Gründer Johann von Grünigen."
     },
@@ -58,7 +58,7 @@ const VIDEOS = [
         id: "nH934Vx7glA",
         title: "Bodäfahrt 2026 – Eindrücklicher Alpabzug mit 40 Familien & 1000 Kühen vom Klausenpass zum Urnerboden",
         duration: "8:05",
-        views: 44665,
+        views: 44927,
         category: "alpabzug",
         desc: "Die Bodäfahrt 2026: Über 40 Familien und rund 1000 Kühe ziehen vom Klausenpass hinunter zum Urnerboden – ein eindrücklicher Alpabzug."
     },
@@ -66,7 +66,7 @@ const VIDEOS = [
         id: "1_D9_7TI3nk",
         title: "Ein Tag, der zählt: Der grosse Viehverkauf auf der Engstligenalp (15.08.2026)",
         duration: "3:52",
-        views: 11206,
+        views: 11287,
         category: "brauchtum",
         desc: "Der grosse Viehverkauf auf der Engstligenalp vom 15. August 2026 – ein Tag, der zählt."
     },
@@ -74,7 +74,7 @@ const VIDEOS = [
         id: "Z5ah_PWSwfU",
         title: "Pure Gänsehaut: Die bewegendsten Momente vom Jodlertreffen Schüpfheim",
         duration: "10:03",
-        views: 20091,
+        views: 20685,
         category: "jodelfest",
         desc: "Die bewegendsten Momente vom Jodlertreffen in Schüpfheim – pure Gänsehaut mit Jodeln, Alphorn und traditioneller Tracht."
     },
@@ -82,7 +82,7 @@ const VIDEOS = [
         id: "q9IpWKlAqUs",
         title: "100 Jahre Furka-Oberalp-Bahn – Dampflok-Fahrt durch die Schweizer Alpen",
         duration: "7:34",
-        views: 4956,
+        views: 4989,
         category: "brauchtum",
         desc: "100 Jahre Furka-Oberalp-Bahn – ein Jubiläum mit imposanten Dampflokomotiven in Gletsch und Muttbach, stimmungsvollen Festaktivitäten in Realp und einer live-Dampflokfahrt von Realp nach Gletsch. Mit Bahn-Journalist Beat Moser."
     },
@@ -90,7 +90,7 @@ const VIDEOS = [
         id: "-Sa1Wl-tV1s",
         title: "32. Eidgenössisches Jodlerfest Basel: Jodel, Alphorn & Fahnenschwingen – Die Höhepunkte",
         duration: "9:36",
-        views: 14862,
+        views: 14926,
         category: "jodelfest",
         desc: "Stimmungsvolle Jodlervorträge, kraftvolle Alphornklänge und die beeindruckende Kunst der Fahnenschwinger – die Höhepunkte des 32. Eidgenössischen Jodlerfests in Basel."
     },
@@ -98,7 +98,7 @@ const VIDEOS = [
         id: "YtO3VItiKko",
         title: "Atemberaubender Alpaufzug Engstligenalp 2026 – Der wohl steilste Alpaufzug der Schweiz",
         duration: "8:31",
-        views: 94088,
+        views: 94602,
         category: "alpaufzug",
         desc: "Steilster Alpaufzug der Schweiz: Jungmannschaft der Familie Kleinjenni im Interview – Engstligenalp 2026."
     },
@@ -106,7 +106,7 @@ const VIDEOS = [
         id: "jB_Id5y2b2c",
         title: "Gotthelf Märit 2026 | Wie früecher – Handwerk, Musik und Emmentaler Köstlichkeiten in Sumiswald",
         duration: "4:59",
-        views: 10891,
+        views: 10921,
         category: "brauchtum",
         desc: "Handwerk, Musik und Emmentaler Köstlichkeiten – der Gotthelf Märit 2026 in Sumiswald wie zu früheren Zeiten."
     },
@@ -114,7 +114,7 @@ const VIDEOS = [
         id: "qmbKNVlmZz8",
         title: "Alpaufzug im Val d'Hérens – Wenn Eringerkühe auf die Alpage d'Arbey ziehen",
         duration: "6:04",
-        views: 12900,
+        views: 12985,
         category: "alpaufzug",
         desc: "Eringerkühe auf dem Weg zur Alpage d'Arbey im wunderschönen Val d'Hérens."
     },
@@ -122,7 +122,7 @@ const VIDEOS = [
         id: "u5A9KaIO4Tk",
         title: "Alpfahrt Appenzellerland 2026 – Mehrere Alpaufzug zur Schwägalp und ins Alpsteingebiet",
         duration: "4:09",
-        views: 7339,
+        views: 7425,
         category: "alpaufzug",
         desc: "Mehrere traditionelle Alpaufzug im Appenzellerland zur Schwägalp und ins Alpsteingebiet."
     },
@@ -130,7 +130,7 @@ const VIDEOS = [
         id: "uJPDOp42Hu4",
         title: "Öberefahre in Urnäsch – Alpaufzug im Appenzellerland",
         duration: "5:31",
-        views: 12568,
+        views: 12634,
         category: "alpaufzug",
         desc: "Die Öberefahre in Urnäsch – ein traditionsreicher Alpaufzug im Appenzellerland."
     },
@@ -138,7 +138,7 @@ const VIDEOS = [
         id: "bXv7LiUHJRM",
         title: "Teigwahlen, Feuer & Konfetti – Badener Fasnacht 2026 hautnah!",
         duration: "6:53",
-        views: 12120,
+        views: 12122,
         category: "brauchtum",
         desc: "Die Badener Fasnacht 2026 mit Teigwahlen, Feuer und Konfetti – hautnah miterlebt."
     },
@@ -146,7 +146,7 @@ const VIDEOS = [
         id: "69pH5r6FewU",
         title: "Tschäggättä Lötschental 2026 – Tradition trotzt dem Bergsturz",
         duration: "8:26",
-        views: 15313,
+        views: 15331,
         category: "brauchtum",
         desc: "Die wilden Tschäggättä im Lötschental – ein Brauchtum, das trotz Bergsturz weiterlebt."
     },
@@ -155,7 +155,7 @@ const VIDEOS = [
         id: "Qmi6_tt-a4M",
         title: "Alpabzug Engstligenalp 2025",
         duration: "7:28",
-        views: 72864,
+        views: 73161,
         category: "alpabzug",
         desc: "Der wunderschöne Alpabzug auf der Engstligenalp 2025 – das meistgesehene LuegemolTV-Video."
     },
@@ -163,7 +163,7 @@ const VIDEOS = [
         id: "G0oUDRckGf4",
         title: "Alpaufzug Engstligenalp 2025",
         duration: "6:40",
-        views: 36602,
+        views: 36632,
         category: "alpaufzug",
         desc: "Der Alpaufzug auf die Engstligenalp 2025 – über 33.000 Mal angesehen."
     },
@@ -171,7 +171,7 @@ const VIDEOS = [
         id: "tS9PWTHDc_A",
         title: "Alpabzug Flimserstein 2025",
         duration: "12:45",
-        views: 24345,
+        views: 24392,
         category: "alpabzug",
         desc: "Der farbenfrohe Alpabzug am Flimserstein 2025 – ein Publikumsmagnet."
     },
@@ -179,7 +179,7 @@ const VIDEOS = [
         id: "yXaxwHGVgaY",
         title: "Chästeilet Justistal 2025",
         duration: "7:46",
-        views: 22459,
+        views: 22515,
         category: "brauchtum",
         desc: "Der traditionelle Chästeilet im wunderschönen Justistal – über 20.000 Aufrufe."
     },
@@ -187,7 +187,7 @@ const VIDEOS = [
         id: "XfpmrERRD68",
         title: "Bodäfahrt 2025",
         duration: "7:19",
-        views: 15540,
+        views: 15546,
         category: "alpabzug",
         desc: "Die Bodäfahrt 2025 – ein schweizweit einzigartiges Erlebnis mit über 14.000 Aufrufen."
     },
@@ -195,7 +195,7 @@ const VIDEOS = [
         id: "LwD5lzJVVUQ",
         title: "Entlebucher Alpabfahrt, Schüpfheim 2025",
         duration: "8:59",
-        views: 11342,
+        views: 11401,
         category: "alpabzug",
         desc: "Die wunderschöne Entlebucher Alpabfahrt in Schüpfheim 2025 – ein Farbspektakel."
     }
