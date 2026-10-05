@@ -273,7 +273,7 @@ function initNavbar() {
 }
 
 // ---- Video Grid ----
-const CHANNEL_TOTAL_VIEWS = 2741085; // Gesamt-Aufrufe des YouTube-Kanals @LuegemolTV (Stand 28.09.2026)
+const CHANNEL_TOTAL_VIEWS = 2774214; // Gesamt-Aufrufe des YouTube-Kanals @LuegemolTV (Stand 05.10.2026)
 
 function updateTotalViews() {
     document.querySelectorAll(".total-views-count").forEach(el => {
